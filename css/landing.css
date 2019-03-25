@@ -1,0 +1,506 @@
+@font-face 
+{
+font-family: 'Oscine_Trial_XBd.ttf';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/Oscine_Trial_XBd.ttf'); 
+}
+@font-face 
+{
+font-family: 'Oscine_Trial_Rg.ttf';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/Oscine_Trial_Rg.ttf'); 
+}
+@font-face 
+{
+font-family: 'Oscine_Trial_Bd.ttf';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/Oscine_Trial_Bd.ttf'); 
+}
+/*
+ html,body {
+       padding:0;
+     margin:0;}
+*/
+/*
+.scroll{
+    position: fixed;
+    z-index: -99;
+     height:100%;
+        width:100%;
+}
+.wrapper{
+      position:absolute;
+        height:100%;
+        width:100%;
+    
+}
+.scrollover{
+height: 3600px; 
+  overflow-y: scroll;
+    background-color: #f1f2eb; !important;
+    position:relative;
+        height:100%;
+        width:100%;
+    margin-top:100%;
+    min-height:100%;
+}
+*/
+.separate{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 110px;
+    line-height: 128px;
+    margin-top: 100px;
+    color: #99d4c0;
+}
+.intro{
+    font-family: 'Spectral';
+    font-size: 20px;
+    font-weight: 30px;
+    margin-top: 187px;
+}
+.checktwo{
+    background-color: bisque;
+}
+.check{
+    background-color: aqua;
+}
+.gif{
+    margin-top: 20px;
+}
+video {
+  width: 100%    !important;
+  height: auto!important;
+  position: relative;
+}
+
+video embed {
+/*
+  width: 100%    !important;
+  height: auto   !important;
+*/
+}
+.thevideo{
+/*    width: 195px;*/
+}
+
+.navbar{
+/*    background-color: #f1f2eb !important;*/
+   display: block;
+}
+
+.navbar .navbar-brand{
+    color: black;
+    font-size: 30px;
+    margin-left: 153px;
+    
+}
+
+.navbar .navbar-brand:hover{
+   color:#f16374;
+    display: block;
+}
+
+.colour{
+    background-color: aqua;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: black;
+    font-size: 20px;
+    font-family: 'Spectral';
+    display: none;
+    margin-right: 30px;
+    
+}
+.navbar-nav{
+    padding-right:153px;
+}
+.blue{
+    background-color: blue;
+}
+.red {
+/*    background-color: red;*/
+}
+.padding-20px{
+    margin-top: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:#f16374;
+/*    font-family: 'Oscine_Trial_Bd.ttf';*/
+}
+body{
+    font-family: 'Oscine_Trial_XBd.ttf';
+/*    background-color: #f1f2eb;*/
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url(../img/hamburger2.svg);
+}
+
+.photo{
+    background-image: url(../img/SEPARATEIMAGE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     height: 300px;
+}
+.photo:hover{
+    background-image: url(../video/separateanddistinct.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.photoone{
+    background-image: url(../img/CYCLING.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     height: 300px;
+}
+.photoone:hover{
+    background-image: url(../video/cycling.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+.about{
+    font-family: 'Spectral';
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+.underphoto{
+    font-family: 'Spectral';
+    font-size: 16px;
+}
+.movetwo{
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.movethree{
+    margin-top: 20px;
+}
+.project{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 40px;
+    line-height: 45px;
+    margin-left: -14px;
+    color: #f16374;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: left;}
+
+.childhood{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 40px;
+    line-height: 45px;
+    margin-left: -14px;
+    color: #f16374;
+/*
+    margin-bottom: 30px;
+    margin-top: 50px;
+*/
+    text-align: left;}
+
+.padding-40px{
+    margin-top: 10px;
+}
+
+.padding-50px{
+   margin-top: 70px;
+}
+.footer{
+     font-family: 'Spectral';
+    font-size: 24px;
+}
+/*body{background-color: #f1f2eb;*/
+}
+.footertwo{
+     font-family: 'Spectral';
+    font-size: 20px;
+    
+    text-align: center;
+/*    margin-top: 102px;*/
+}
+/*
+    margin-top: 50px;
+    margin-bottom: 30px;
+*/
+/*    color: #f16374;*/
+/*
+    margin-top: 50px;
+    margin-bottom: 20px;
+*/
+}
+
+.heading{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 40px;
+    color: #f16374;
+    margin-top: 8px;
+}
+.forty{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 40px;
+    line-height: 45px;
+}
+
+bigheading{
+     font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 110px;
+    line-height: 128px;
+}
+
+.bodycopy{
+    font-family: 'Spectral';
+    font-size: 20px;
+    line-height: 30px;
+}
+.headingproject{
+     font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 40px;
+    line-height: 50px;
+    color: #99d4c0;
+    margin-top: 50px;
+  
+}
+.cover{
+}
+.logo{
+    margin-top: 50px;
+}
+.closeup{
+    margin-top: 25px;
+}
+.projectexplain{
+    margin-top: 50px;
+}
+
+.description{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+/*    margin: 40px;*/
+}
+.descriptionone{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+    margin-left: 83px;
+    text-align:right;
+}
+.descriptiontwo{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+    margin-left: 125px;
+    text-align:right;
+}
+.descriptionthree{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+    margin-left: 53px;
+    text-align:right;
+}
+.descriptionfour{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+    margin-left: 200px;
+    text-align:right;
+}
+.texttwo{
+    padding-bottom: 30px;
+}
+.quote{
+font-family: 'Spectral';
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+    color: black;
+   padding-bottom: 40px;
+   
+    
+    
+/*    margin-bottom: 50px;*/
+}
+.quotetwo{
+    font-family: 'Spectral';
+    font-size: 16px;
+   
+    text-align: left;
+    color: black;
+/*    margin: -10px;*/
+  
+    
+    
+/*    margin-bottom: 50px;*/
+}
+
+.paddingtop-18
+{
+    margin-top: -16px;
+}
+
+body{
+/*  background-color: #f1f2eb;*/
+  padding-top: 30px;
+    font-family: "Oscine_Trial_XBd.ttf"
+
+}
+
+
+.move{
+    margin-top: -40px;
+}
+
+
+
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+/* Apply these rules if the screen width is LESS than 576px */
+
+/*
+@media(max-width:576px){
+  div[class^="col"]{
+    border-style: solid;
+    border-color:black;
+  }
+}
+*/
+
+/* Apply these rules if the screen width is GREATER than 576px */
+
+
+
+
+
+/*    margin-top: 100px;*/
+
+
+
+.colour{
+/*    background-color: #f1f2eb;*/
+/*    height: 650px;*/
+}
+
+
+.container { position:relative; }
+.container video {
+    position:relative;
+/*    z-index:0;*/
+}
+
+.heading{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+.over{
+/*
+    position: relative;
+    text-align: center;
+*/
+}
+.overlay {
+    position:absolute;
+    margin-top: 380px;
+    top:0;
+    left:0;
+/*    z-index:1;*/
+    color: white;
+    margin-left: 280px;
+    font-family: "Oscine_Trial_XBd.ttf";
+    font-size: 120px;
+    line-height: 128px;
+    text-align: left;
+    margin-top: 220px;
+   
+}
+
+.overlaythree{
+     position:absolute;
+/*    margin-top: 1030px;*/
+    top:0;
+    left:0;
+/*    z-index:1;*/
+    color: white;
+    margin-left:840px;
+
+    font-family: 'Spectral';
+    font-size: 20px;
+    line-height: 30px;
+   
+    text-align: left;
+    margin-top: 378px;
+    
+}
+<style>
+a:link {
+    color: #f16374; 
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f16374;
+    background-color: transparent;
+    text-decoration:none;
+}
+
+a:active {
+    color:#f16374;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+
+
+/* Apply these rules if the screen width is GREATER than 768px */
+
+/*
+@media (min-width: 768px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:blue;
+  }
+
+*/
+
+/* Apply these rules if the screen width is GREATER than 992px */
+/*
+
+@media (min-width: 992px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:yellow;
+  }
+}
+*/
+
+/* Apply these rules if the screen width is GREATER than 1200px */
+/*
+
+@media (min-width: 1200px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:red;
+  }
+}*/

@@ -1,0 +1,83 @@
+@font-face 
+{
+font-family: 'Oscine_Trial_XBd.ttf';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/Oscine_Trial_XBd.ttf'); 
+}
+@font-face 
+{
+font-family: 'Oscine_Trial_Rg.ttf';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/Oscine_Trial_Rg.ttf'); 
+}
+@font-face 
+{
+font-family: 'Oscine_Trial_Bd.ttf';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/Oscine_Trial_Bd.ttf'); 
+}
+
+#videosList {
+ max-width: 600px; 
+  overflow: hidden;
+}
+
+.video {
+  background-image: url('https://img.youtube.com/vi/nZcejtAwxz4/maxresdefault.jpg');
+  height: 330px;
+  width: 600px;
+  margin-bottom: 50px;
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.navbar{
+    background-color: #f1f2eb !important;
+}
+
+.navbar .navbar-brand{
+    color: black;
+    font-size: 24px;
+}
+
+.navbar .navbar-brand:hover{
+   color:#f16374;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: black;
+    font-size: 16px;
+    font-family: 'Oscine_Trial_Rg.ttf';
+    
+}
+.heading{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 40px;
+    color: #f16374;
+    margin-top: 80px;
+}
+video{
+    width: 100%;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:#f16374;
+/*    font-family: 'Oscine_Trial_Bd.ttf';*/
+}
+body{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    background-color: #f1f2eb;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url(../img/hamburger2.svg);
+}

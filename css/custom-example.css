@@ -1,0 +1,965 @@
+/*
+Custom CSS
+*/
+
+@font-face 
+{
+font-family: 'Oscine_Trial_XBd.ttf';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/Oscine_Trial_XBd.ttf'); 
+}
+@font-face 
+{
+font-family: 'Oscine_Trial_Rg.ttf';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/Oscine_Trial_Rg.ttf'); 
+}
+@font-face 
+{
+font-family: 'Oscine_Trial_Bd.ttf';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/Oscine_Trial_Bd.ttf'); 
+}
+/*
+ html,body {
+       padding:0;
+     margin:0;}
+*/
+/*
+.scroll{
+    position: fixed;
+    z-index: -99;
+     height:100%;
+        width:100%;
+}
+.wrapper{
+      position:absolute;
+        height:100%;
+        width:100%;
+    
+}
+.scrollover{
+height: 3600px; 
+  overflow-y: scroll;
+    background-color: #f1f2eb; !important;
+    position:relative;
+        height:100%;
+        width:100%;
+    margin-top:100%;
+    min-height:100%;
+}
+*/
+.logo{
+   color:#f16374; 
+}
+.red{
+    color: #d6232b;
+     margin-top: 30px;
+}
+.separate{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 110px;
+    line-height: 128px;
+    margin-top: 100px;
+    color: #99d4c0;
+}
+.soon{
+   color: #99d4c0; 
+}
+.lost{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 110px;
+    line-height: 128px;
+    margin-top: 100px;
+    color: #32c3e2;
+}
+
+.cyclists{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 110px;
+    line-height: 128px;
+    margin-top: 100px;
+    color: #d6232b;
+}
+.intro{
+    font-family: 'Spectral';
+    font-size: 20px;
+    font-weight: 30px;
+    margin-top: 187px;
+}
+.checktwo{
+    background-color: bisque;
+}
+.check{
+/*    background-color: aqua;*/
+}
+.changecolour{
+    color: #98d4bf;
+    margin-top: 30px;
+    
+}
+
+.changecolour2{
+    color: #d6232b;
+    margin-top: 30px;
+    
+}
+
+.changecolour3{
+    color: #32c3e2;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    
+}
+.descrip{
+    margin-top: -15px;
+}
+.gif{
+    margin-top: 20px;
+}
+video {
+  width: 100%    !important;
+  height: auto!important;
+  position: relative;
+}
+.separatevideo{
+    margin-top: 50px;
+}
+video embed {
+/*
+  width: 100%    !important;
+  height: auto   !important;
+*/
+}
+.thevideo{
+/*    width: 195px;*/
+}
+
+.navbar{
+    background-color: #f1f2eb !important;
+   
+}
+
+.navbar .navbar-brand{
+    color: black;
+    font-size: 30px;
+/*    margin-left: 153px;*/
+}
+
+.navbar .navbar-brand:hover{
+   color:#f16374;
+}
+
+
+
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: black;
+    font-size: 20px;
+    font-family: 'Spectral';
+/*    margin-right: 30px;*/
+    
+}
+.projectdescription{
+ margin-top: -156px;
+}
+.navbar-nav{
+/*    padding-right:153px;*/
+}
+.blue{
+/*    background-color: blue;*/
+}
+.red {
+/*    background-color: red;*/
+}
+.padding-20px{
+    margin-top: 20px;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:#f16374;
+/*    font-family: 'Oscine_Trial_Bd.ttf';*/
+}
+body{
+    font-family: 'Oscine_Trial_XBd.ttf';
+/*    background-color: #f1f2eb;*/
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url(../img/hamburger2.svg); !important;
+    border: none;
+}
+.navbar-toggler {
+    background-color: #f1f2eb;
+}
+
+.photo{
+    background-image: url(../img/DAD%20IMAGE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     height: 300px;
+}
+.photo:hover{
+    background-image: url(../video/dad.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.photoone{
+    background-image: url(../img/NEWCYCLING.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     height: 300px;
+    width: 100%;
+        position: relative;
+/*
+    display: block;
+    text-indent:-9999px;
+*/
+    
+    
+}
+
+
+.photoone:hover{
+    background-image: url(../video/newcylcing.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+
+.photothree{
+    background-image: url(../img/NEWOLDFEELING.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     height: 300px;
+}
+.photothree:hover{
+    background-image: url(../video/NEWTHATOLDFEELING.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+}
+.photofour{
+    background-image: url(../img/motyf_00000%202.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     height: 300px;
+}
+
+.photofour:hover{
+    background-image: url(../video/motyf2.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;}
+.about{
+    font-family: 'Spectral';
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+.underphoto{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+}
+
+.bold{
+    font-family: 'Spectral:700', serif, ;
+    font-size: 16px;
+    font-weight: 700;
+    color: #58595b;
+    margin-top: 10px
+}
+.movetwo{
+    margin-top: 90px;
+/*    margin-bottom: 20px;*/
+}
+
+.movethree{
+    margin-top: 50px;
+}
+.project{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 40px;
+    line-height: 45px;
+    margin-left: -14px;
+    color: #f16374;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: left;}
+
+.childhood{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 40px;
+    line-height: 45px;
+    margin-left: -14px;
+    color: #f16374;}
+/*
+    margin-bottom: 30px;
+    margin-top: 50px;
+*/
+    text-align: left;}
+
+.padding-40px{
+    margin-top: 10px;
+}
+
+.padding-50px{
+   margin-top: 70px;
+}
+.footer{
+     font-family: 'Spectral';
+    font-size: 24px;
+/*    color:#a7a9ac;*/
+    
+}
+body{background-color: #f1f2eb;
+}
+.footertwo{
+     font-family: 'Spectral';
+    font-size: 20px;
+/*     color:#a7a9ac;*/
+    
+    
+    text-align: center;
+/*    margin-top: 102px;*/
+}
+/*
+    margin-top: 50px;
+    margin-bottom: 30px;
+*/
+/*    color: #f16374;*/
+/*
+    margin-top: 50px;
+    margin-bottom: 20px;
+*/
+}
+
+.heading{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 40px;
+    color: #f16374;
+    margin-top: 8px;
+}
+.forty{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.bigheading{
+     font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 110px;
+    line-height: 128px;
+}
+.explanation{
+    margin-left: 575px;
+    margin-top: -115px;
+}
+.bodycopy{
+    font-family: 'Spectral';
+    font-size: 20px;
+    line-height: 30px;
+}
+.footertext{
+    font-family: 'Spectral';
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.headingproject{
+     font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 40px;
+    line-height: 50px;
+    color: #99d4c0;
+    margin-top: 50px;
+  
+}
+.cover{margin-top: -445px;
+}
+.logo{
+    margin-top: 45px;
+}
+.minibook{
+    margin-top: 20px;
+}
+.book{
+    margin-top: 20px;
+}
+.projectexplain{
+    margin-top: 50px;
+}
+.allspreads{
+    margin-top: 20px;
+    background-color: black;
+    
+/*    margin-left: -43px;*/
+/*    margin-left: -167px;*/
+}
+.description{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+/*    margin: 40px;*/
+}
+.green{
+    color: #99d4c0;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.posteruno{
+    margin-top: 30px;
+}
+.descriptionone{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+    margin-left: 83px;
+    text-align:right;
+}
+.descriptiontwo{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+    margin-left: 125px;
+    text-align:right;
+}
+.descriptionthree{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+    margin-left: 53px;
+    text-align:right;
+}
+.descriptionfour{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+    margin-left: 200px;
+    text-align:right;
+}
+.texttwo{
+    padding-bottom: 30px;
+}
+
+.nextproject{
+    padding-left:  63px;
+    text-align: right;
+}
+.quote{
+font-family: 'Spectral';
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+    color: black;
+   padding-bottom: 40px;
+   
+    
+    
+/*    margin-bottom: 50px;*/
+}
+.quotetwo{
+    font-family: 'Spectral';
+    font-size: 16px;
+   
+    text-align: left;
+    color: black;
+/*    margin: -10px;*/
+  
+    
+    
+/*    margin-bottom: 50px;*/
+}
+.paddingdad{
+    margin-top: -26px;
+}
+
+.paddingtop-18
+{
+    margin-top: -16px;
+}
+
+body{
+/*  background-color: #f1f2eb;*/
+  padding-top: 30px;
+    font-family: "Oscine_Trial_XBd.ttf"
+
+}
+.bodycopybold{
+    font-family: 'Spectral:700', serif, ;
+    font-size: 20px;
+}
+
+.move{
+    margin-top: -40px;
+}
+.posters{
+    margin-top: 20px;
+}
+img{
+width: 100%;
+    height:auto;
+}
+
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+/* Apply these rules if the screen width is LESS than 576px */
+
+/*
+@media(max-width:576px){
+  div[class^="col"]{
+    border-style: solid;
+    border-color:black;
+  }
+}
+*/
+
+/* Apply these rules if the screen width is GREATER than 576px */
+
+
+
+
+
+/*    margin-top: 100px;*/
+
+
+
+.colour{
+/*    background-color: #f1f2eb;*/
+/*    height: 650px;*/
+}
+
+
+.container { position:relative; }
+.container video {
+    position:relative;
+/*    z-index:0;*/
+}
+
+.heading{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-size: 40px;
+    line-height: 50px;
+}
+.closeup{
+    margin-top: 30px;
+}
+.over{
+/*
+    position: relative;
+    text-align: center;
+*/
+}
+
+.newspaper{
+    margin-top: 20px;
+}
+.overlay {
+    position:absolute;
+    margin-top: 380px;
+    top:0;
+    left:0;
+/*    z-index:1;*/
+    color: white;
+    margin-left: 280px;
+    font-family: "Oscine_Trial_XBd.ttf";
+    font-size: 120px;
+    line-height: 128px;
+    text-align: left;
+    margin-top: 220px;
+   
+}
+
+.ontopvideo {
+    position:absolute;
+    margin-top: 230px;
+    top:0;
+    left:0;
+/*    z-index:1;*/
+    color: white;
+    margin-left: 280px;
+    font-family: "Oscine_Trial_XBd.ttf";
+    font-size: 120px;
+    line-height: 128px;
+    text-align: left;
+/*    margin-top: 220px;*/
+   
+}
+
+.overlaythree{
+     position:absolute;
+/*    margin-top: 1030px;*/
+    top:0;
+    left:0;
+/*    z-index:1;*/
+    color: white;
+    margin-left:840px;
+
+    font-family: 'Spectral';
+    font-size: 20px;
+    line-height: 30px;
+   
+    text-align: left;
+    margin-top: 378px;
+    
+}
+
+<style>
+a:link {
+    color: black;
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f16374;
+    background-color: transparent;
+    text-decoration:none;
+}
+.bottomnav{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+a:active {
+    color:#f16374;
+    background-color: transparent;
+    text-decoration: none;
+}
+</style>
+
+.linkcolor a:link{
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:576px)
+{ 
+/*
+    .overlay {
+    position:absolute;
+    
+    top:0;
+    left:0;
+    z-index:1;
+    color: white;
+    
+    font-family: "Oscine_Trial_XBd.ttf";
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+   
+   
+}
+*/
+    
+
+.explanation{
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+
+    .height{
+        900px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:576px)
+{ .project{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 35px;
+    line-height: 35px;
+    margin-left: -14px;
+    color: #f16374;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: left;}
+}
+    
+}
+
+@media only screen and (max-width:576px)
+{ .design{
+/*    font-size: 40px;*/
+/*    margin-left: -100px;*/
+    
+    margin-right: 200px;
+    
+}
+}
+
+@media only screen and (max-width:576px)
+{ .ontopvideo{
+   position:absolute;
+    margin-top:0;
+    top:0;
+    left:0;
+/*    z-index:1;*/
+    color: white;
+    margin-left: 0x;
+    font-family: "Oscine_Trial_XBd.ttf";
+    font-size: 50px;
+    line-height: 55px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 100px;
+    margin-bottom: 6px;
+    
+    
+}
+    .mobile{
+display: none;}
+    .shiftthree{
+        margin-top: 40px;
+    }
+    .namebootom{
+        display: none;
+    }
+    .separate{
+    font-family: 'Oscine_Trial_XBd.ttf';
+   font-size: 50px;
+    line-height: 55px;
+    margin-top: 70px;
+        margin-bottom: 200px;
+    color: #99d4c0;
+}
+    
+    .lost{
+    font-family: 'Oscine_Trial_XBd.ttf';
+   font-size: 50px;
+    line-height: 55px;
+    margin-top: 70px;
+        margin-bottom: 200px;
+    color: aqua;
+}
+       .cyclists{
+    font-family: 'Oscine_Trial_XBd.ttf';
+   font-size: 50px;
+    line-height: 55px;
+    margin-top: 70px;
+        margin-bottom: 200px;
+    
+} 
+    .padding-50px{
+   margin-top: 0px;
+}
+    
+    .shiftfour{
+        margin-top: -50px;
+    }
+    
+    .footertwo{
+     font-family: 'Spectral';
+    font-size: 20px;
+    
+        text-align: left;}
+    
+    .footer{
+        margin-top: 40px;
+        
+    }
+    
+    .photo{
+    background-image: url(../img/DAD%20IMAGE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     height: 300px;
+        margin-top: -40px;
+}
+    .photothree{
+    background-image: url(../img/NEWOLDFEELING.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     height: 300px;
+/*        margin-top: -100px;*/
+}
+    
+    .bottomnav{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+    .shift{
+        margin-top: -40px;
+    }
+    .childhood{
+    font-family: 'Oscine_Trial_XBd.ttf';
+    font-size: 35px;
+    line-height: 40px;
+    margin-left: 0px;
+    color: #f16374;}
+    
+    .bottomcyclists{
+        display: none
+    }
+    .descriptionone{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+    margin-left: 0px;
+    text-align:right;
+        display: none;
+}
+    .descriptiontwo{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+    margin-left: 0px;
+    text-align:right;
+        display: none;
+}
+    .explanation{
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 14px;
+    line-height: 20px;
+        margin-top: -75px;
+        margin-left: 150px;
+        display: none;
+}
+    .heading{
+    margin-bottom: 20px;
+    font-size: 35px;
+    line-height: 40px;
+        margin-top: 15px;
+        color: black;
+        
+      
+        
+}
+    .nextproject{
+    padding-left:  0px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+    text-align: right;
+}
+    .descriptionfour{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+    margin-left: 200px;
+    text-align:right;
+    display: none;
+}
+    .descriptionthree{
+    font-family: 'Spectral';
+    font-size: 16px;
+    color: #58595b;
+    margin-left: 0px;
+    text-align:right;
+        display: none;
+}
+    .about{
+        text-align: left;
+        margin-left:-3px; 
+    }
+    
+    
+/*
+    .photo{
+    background-image: url(../img/mobileseparate_00000.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     height: 300px;
+*/
+}
+/*
+.photo:hover{
+    background-image: url(../video/mobileseparate_00000.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+*/
+}
+
+}
+@media only screen and (max-width:576px)
+{ .descriptionone{
+
+/*    margin-right: 950px;*/
+  
+    
+    
+        
+    
+   
+}
+}
+@media only screen and (max-width:576px)
+{ 
+    .imagefluid{
+    max-width: 100%;
+        height: auto;
+}
+
+    {}             }
+
+/* Apply these rules if the screen width is GREATER than 768px */
+
+/*
+@media (min-width: 768px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:blue;
+  }
+
+*/
+
+/* Apply these rules if the screen width is GREATER than 992px */
+/*
+
+@media (min-width: 992px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:yellow;
+  }
+}
+*/
+
+/* Apply these rules if the screen width is GREATER than 1200px */
+/*
+
+@media (min-width: 1200px) {
+  div[class^="col"]{
+    border-style: solid;
+    border-color:red;
+  }
+}*/

@@ -2,6 +2,8 @@
 Custom CSS
 */
 
+
+
 @font-face 
 {
 font-family: 'Oscine_Trial_XBd.ttf';
@@ -22,6 +24,132 @@ font-family: 'Oscine_Trial_Bd.ttf';
 font-style: normal;
 font-weight: 100;
 src: url('fonts/Oscine_Trial_Bd.ttf'); 
+}
+
+.bg-light{
+    transition: 200ms ease;
+    background: transparent !important;
+}
+
+.bg-light.scrolled{
+    background: #f1f2eb !important;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    font-size: 35px;
+    color:#f16374!important;
+}
+.abc.ncol{
+    color: #828eac !important;
+}
+
+.abc{
+    color: white!important;
+}
+.image{
+    width: 200px;
+    margin-top: -100px;
+}
+.active{
+    color: #95d6ea !important;
+    font-weight:600!important;
+}
+
+/*
+.height{
+    height: 1000px;
+}
+*/
+
+.ontopvideo{
+   
+    position:absolute;
+    margin-top: -600px;
+
+}
+
+a:link.nav-link.abc{
+    font-family:'Work Sans', sans-serif;
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: 300;
+}
+
+
+
+a:visited .nav-link.abc{
+    font-family:'Work Sans', sans-serif;
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: 300;
+    color: #95d8ed!important;
+}
+
+a:hover.nav-link.abc{
+    color: #95d8ed!important;
+    text-decoration: none !important;
+}
+
+a:active.nav-link.abc{
+    color:#95d8ed!important;
+    text-decoration: none !important;
+}
+
+
+
+
+.abc path {
+    fill: white;
+}
+.abc.ncol path{
+    fill: #828eac;
+}
+
+
+
+.navbar-expand-md .navbar-nav .nav-link{
+ 
+}
+
+.icon-bar {
+	width: 22px; 
+	height: 2px;
+	background-color: #B6B6B6;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px
+}
+ 
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+ 
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+ 
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+ 
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+ 
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+ 
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
 }
 /*
  html,body {
@@ -108,6 +236,13 @@ height: 3600px;
     
 }
 
+ .video{
+width: 100%    !important;
+  height: auto!important;
+  position: relative;
+
+}
+
 .changecolour3{
     color: #32c3e2;
     margin-top: 40px;
@@ -120,11 +255,16 @@ height: 3600px;
 .gif{
     margin-top: 20px;
 }
+/*
 video {
   width: 100%    !important;
-  height: auto!important;
+  height: 100%!important;
   position: relative;
 }
+
+
+
+*/
 .separatevideo{
     margin-top: 50px;
 }
@@ -138,20 +278,27 @@ video embed {
 /*    width: 195px;*/
 }
 
+
+/*
 .navbar{
     background-color: #f1f2eb !important;
    
 }
+*/
 
+/*
 .navbar .navbar-brand{
     color: black;
     font-size: 30px;
-/*    margin-left: 153px;*/
+    margin-left: 153px;
 }
+*/
 
+/*
 .navbar .navbar-brand:hover{
    color:#f16374;
 }
+*/
 
 
 
@@ -487,7 +634,7 @@ font-family: 'Spectral';
 
 body{
 /*  background-color: #f1f2eb;*/
-  padding-top: 30px;
+/*  padding-top: 30px;*/
     font-family: "Oscine_Trial_XBd.ttf"
 
 }

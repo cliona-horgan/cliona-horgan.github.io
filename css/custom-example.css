@@ -202,7 +202,7 @@ body{
      height: 300px;
 }
 .photo:hover{
-    background-image: url(../video/dad.gif);
+    background-image: url(../video/dad.mp4);
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;

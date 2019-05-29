@@ -396,14 +396,14 @@ body{
     height: 300px;
 }
 .photofour{
-    background-image: url(../img/motyf_00000%202.png);
+    background-image: url(../img/gradshow_00000.png);
     background-repeat: no-repeat;
     background-position: center;
      height: 300px;
 }
 
 .photofour:hover{
-    background-image: url(../video/motyf2.gif);
+    background-image: url(../video/gradshow_00000.gif);
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;}

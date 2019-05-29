@@ -38,14 +38,14 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
 .navbar-brand {
     margin-left: 20px;
     font-size: 35px;
-    color:#f16374!important;
+    color:black!important;
 }
 .abc.ncol{
     color: black!important;
 }
 
 .abc{
-    color: white!important;
+    color: black!important;
 }
 .image{
     width: 200px;
@@ -107,7 +107,7 @@ a:active.nav-link.abc{
 
 
 .abc path {
-    fill: white;
+    fill: black;
 }
 .abc.ncol path{
     fill: #828eac;

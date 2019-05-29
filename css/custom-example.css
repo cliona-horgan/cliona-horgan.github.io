@@ -384,13 +384,13 @@ body{
 }
 
 .photothree{
-    background-image: url(../img/NEWOLDFEELING.png);
+    background-image: url(../img/comerfords.png);
     background-repeat: no-repeat;
     background-position: center;
      height: 300px;
 }
 .photothree:hover{
-    background-image: url(../video/NEWTHATOLDFEELING.gif);
+    background-image: url(../video/comerfords.gif);
     background-repeat: no-repeat;
     background-position: center;
     height: 300px;
@@ -458,9 +458,12 @@ body{
     text-align: left;}
 
 .padding-40px{
-    margin-top: 10px;
+    margin-top: 80px;
 }
 
+.aboutpart{
+    padding-top: 50px;
+}
 .padding-50px{
    margin-top: 70px;
 }

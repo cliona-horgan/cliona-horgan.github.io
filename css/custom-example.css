@@ -32,7 +32,7 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
 }
 
 .bg-light.scrolled{
-    background: #f1f2eb !important;
+    background: #f1f2f2 !important;
 }
 
 .navbar-brand {
@@ -41,7 +41,7 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
     color:#f16374!important;
 }
 .abc.ncol{
-    color: #f16374!important;
+    color: black!important;
 }
 
 .abc{
@@ -56,15 +56,24 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
     font-weight:600!important;
 }
 
+.explanation{
+    text-align: center;
+    padding-top: 20px;
+}
+
 .height{
-    height: 821px;
+/*    height: 821px;*/
 }
 
 .ontopvideo{
    
-    position:absolute;
-    margin-top: -600px;
+/*    position:absolute;*/
+/*    margin-top: -100px;*/
 
+}
+
+.text{
+    padding-top: 20px;
 }
 
 a:link.nav-link.abc{
@@ -432,7 +441,7 @@ body{
     line-height: 45px;
     margin-left: -14px;
     color: #f16374;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-top: 50px;
     text-align: left;}
 
@@ -461,7 +470,7 @@ body{
 /*    color:#a7a9ac;*/
     
 }
-body{background-color: #f1f2eb;
+body{background-color: #f1f2f2;
 }
 .footertwo{
      font-family: 'Spectral';
@@ -508,10 +517,12 @@ a:hover.heading{
     font-size: 110px;
     line-height: 128px;
 }
+/*
 .explanation{
     margin-left: 575px;
     margin-top: -115px;
 }
+*/
 .bodycopy{
     font-family: 'Spectral';
     font-size: 20px;
@@ -628,7 +639,7 @@ font-family: 'Spectral';
 /*    margin-bottom: 50px;*/
 }
 .paddingdad{
-    margin-top: -26px;
+    margin-top: -20px;
 }
 
 .paddingtop-18
@@ -695,9 +706,9 @@ Extra large   ≥1200px   .col-xl-
 }
 
 
-.container { position:relative; }
+/*.container { position:relative; }*/
 .container video {
-    position:relative;
+/*    position:relative;*/
 /*    z-index:0;*/
 }
 
@@ -737,19 +748,32 @@ Extra large   ≥1200px   .col-xl-
 }
 
 .ontopvideo {
-    position:absolute;
-    margin-top: 230px;
+/*    position:absolute;*/
+/*    margin-top: 230px;*/
+/*
     top:0;
     left:0;
-/*    z-index:1;*/
+    z-index:1;
     color: white;
     margin-left: 280px;
     font-family: "Oscine_Trial_XBd.ttf";
     font-size: 120px;
     line-height: 128px;
     text-align: left;
+*/
 /*    margin-top: 220px;*/
    
+}
+.ontopvideo{
+    padding-top: 140px;
+}
+
+.design{
+    font-family: "Oscine_Trial_XBd.ttf";
+    font-size: 120px;
+    line-height: 128px;
+    text-align: center;
+    color:#f16374;
 }
 
 .overlaythree{
@@ -859,8 +883,7 @@ a:active {
     
 
 .explanation{
-    margin-left: 0px;
-    margin-top: 0px;
+    
 }
 
 

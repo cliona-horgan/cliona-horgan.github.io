@@ -8,7 +8,7 @@
        
       <!-- Bootstrap -->
       <link href="css/bootstrap.css" rel="stylesheet">
-      <link href="css/custom-example.css" rel="stylesheet">
+      <link href="css/cycling.css" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Spectral:400,700" rel="stylesheet">
       <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
       <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,34 +20,61 @@
    <body>
        
        <!--       open nav-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-            
-            <a class="navbar-brand" href="index.html">Clíona</a>
-            
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"> </span>
-                </button>
-            
-                <div  class="navbar-collapse collapse" id="navbarNavDropdown">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        
+            <a class="navbar-brand abc" href="index.html"> 
+                Clíona
+           </a>
+        
+        
+<!--
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+             
+-->
+             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarsSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 
+	           <span class="icon-bar top-bar"></span>
+	           <span class="icon-bar middle-bar"></span>
+	           <span class="icon-bar bottom-bar"></span>				
+            </button>
+     
+        
 
-                    <ul class="navbar-nav ml-auto">
-
-                        <li class="nav-item">
-                                <a class="nav-link" href="index-example.html#project">Projects</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                                <a class="nav-link" href="index-example.html#about">About me</a>
-                        </li>
-                        
-                        <li class="nav-item">
-                                <a class="nav-link" href="index-example.html#contact">Contact</a>
-                        </li>
-                        
-                    </ul>
-                    
-                </div>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                
+                
+        
+        
+               
+        
+                <li class="nav-item">
+                    <a class="nav-link abc" href="#project">Projects</a>
+        
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link abc" href="#about">About me</a>
+        
+                </li>
+        
+                <li class="nav-item">
+                    <a class="nav-link abc" href="#contact">Contact</a>
+        
+                </li>
+        
+                
+        
+       
+            </ul>
+        </div>
+        
+    
         </nav>
+        
 <div class="container">
     <div class="row move">
         
@@ -172,6 +199,59 @@
       <script src="js/bootstrap.min.js"></script>
 
       <script>
+          
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+       
+<!--       Include all compiled plugins (below), or include individual files as needed-->
+       <script src="js/custom.js"> </script>
+      <script src="js/bootstrap.min.js"></script>
+
+      <script>
+   <script src="js/custom.js"> </script>
+      <script src="js/bootstrap.min.js"></script>
+       
+         <script>
+    
+    $(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() >150);
+    });
+        
+    </script> 
+        
+        
+    <script>
+        
+    $(window).scroll(function(){
+    if ( $(this).scrollTop() > 150){
+    $ ('.abc') .addClass ('ncol'); 
+    } else{
+    $ ('.abc') .removeClass('ncol');
+    }
+    });
+      
+    </script>
+
+      <script>
+         $(document).ready(function() {       
+             $('.video').each(function(i, obj) {
+                 $(this).on("mouseover", function() { hoverVideo(i); });
+                 $(this).on("mouseout", function() { hideVideo(i); });
+             });
+         });
+         
+             function hoverVideo(i) {  
+                     $('.thevideo')[i].play(); 
+             }
+         
+             function hideVideo(i) {
+                     $('.thevideo')[i].currentTime = 0; 
+                     $('.thevideo')[i].pause(); 
+             }
+               
+            
+      </script>
+          
+          
       
          
 </body>

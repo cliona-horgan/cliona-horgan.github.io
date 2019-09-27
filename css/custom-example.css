@@ -6,11 +6,31 @@ Custom CSS
 
 @font-face 
 {
-font-family: 'Oscine_Trial_XBd.ttf';
+font-family: 'Apercu_Regular.otf';
 font-style: normal;
 font-weight: 100;
-src: url('fonts/Oscine_Trial_XBd.ttf'); 
+src: url('../fonts/Apercu_Regular.otf'); 
 }
+
+@font-face 
+{
+font-family: 'Apercu Bold.otf';
+font-style: normal;
+font-weight: 100;
+src: url('../fonts/Apercu Bold.otf'); 
+}
+
+@font-face 
+{
+font-family: 'Apercu Light.otf';
+font-style: normal;
+font-weight: 100;
+src: url('../fonts/Apercu Light.otf'); 
+}
+
+
+
+/*
 @font-face 
 {
 font-family: 'Oscine_Trial_Rg.ttf';
@@ -25,6 +45,7 @@ font-style: normal;
 font-weight: 100;
 src: url('fonts/Oscine_Trial_Bd.ttf'); 
 }
+*/
 
 .bg-light{
     transition: 200ms ease;
@@ -32,20 +53,21 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
 }
 
 .bg-light.scrolled{
-    background: #f1f2f2 !important;
+    background: #2b2b2b !important;
 }
 
 .navbar-brand {
-    margin-left: 20px;
-    font-size: 35px;
+    margin-left: 22px;
+    font-size: 25px;
+    font-family: 'Apercu Bold.otf';
     color:#f16374!important;
 }
 .abc.ncol{
-    color: black!important;
+    color: white!important;
 }
 
 .abc{
-    color: white!important;
+    color: black!important;
 }
 .image{
     width: 200px;
@@ -60,6 +82,9 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
     text-align: center;
     padding-top: 20px;
 }
+
+
+
 
 .height{
 /*    height: 821px;*/
@@ -77,8 +102,8 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
 }
 
 a:link.nav-link.abc{
-    font-family:'Work Sans', sans-serif;
-    font-size: 18px;
+    font-family:'Apercu_Regular.otf';
+    font-size: 22px;
     margin-right: 10px;
     font-weight: 300;
 }
@@ -86,7 +111,7 @@ a:link.nav-link.abc{
 
 
 a:visited .nav-link.abc{
-    font-family:'Work Sans', sans-serif;
+    font-family:'Apercu_Regular.otf';
     font-size: 18px;
     margin-right: 10px;
     font-weight: 300;
@@ -113,6 +138,22 @@ a:active.nav-link.abc{
     fill: #828eac;
 }
 
+.media_block_cat{
+    width: 100%;
+    height: 100%;
+}
+.media_block_video{
+    width: 100%;
+    height: 90%;
+    padding-bottom: 90px;
+}
+
+.background{
+    background-color: #9ed8eb;
+    height: 950px;
+    width:1540px;
+    
+}
 
 
 .navbar-expand-md .navbar-nav .nav-link{
@@ -199,17 +240,37 @@ height: 3600px;
      margin-top: 30px;
 }
 .separate{
-    font-family: 'Oscine_Trial_XBd.ttf';
+    font-family: 'Apercu_Regular.otf';
     font-size: 110px;
     line-height: 128px;
     margin-top: 100px;
     color: #99d4c0;
 }
+
+
+.projectname{
+    font-family:  'Apercu Bold.otf';
+    font-size: 110px;
+    line-height: 128px;
+    color: white;
+    
+}
+
+.subheading{
+     font-family: 'Apercu_Regular.otf';
+    font-size: 32px;
+    color: #848484;
+}
+
+.undervideo{
+    padding-top: 100px;
+    
+}
 .soon{
    color: #99d4c0; 
 }
 .lost{
-    font-family: 'Oscine_Trial_XBd.ttf';
+    font-family: 'Apercu_Regular.otf';
     font-size: 110px;
     line-height: 128px;
     margin-top: 100px;
@@ -217,7 +278,7 @@ height: 3600px;
 }
 
 .cyclists{
-    font-family: 'Oscine_Trial_XBd.ttf';
+    font-family: 'Apercu_Regular.otf';
     font-size: 110px;
     line-height: 128px;
     margin-top: 100px;
@@ -249,8 +310,9 @@ height: 3600px;
 
  .video{
 width: 100%    !important;
-  height: auto!important;
+  height:100% !important;
   position: relative;
+    
 
 }
 
@@ -308,8 +370,8 @@ video embed {
 
 .navbar .navbar-nav .nav-item .nav-link{
     color: black;
-    font-size: 20px;
-    font-family: 'Spectral';
+    font-size: 22px;
+    font-family: 'Apercu_Regular.otf';
 /*    margin-right: 30px;*/
     
 }
@@ -333,8 +395,62 @@ video embed {
 /*    font-family: 'Oscine_Trial_Bd.ttf';*/
 }
 body{
-    font-family: 'Oscine_Trial_XBd.ttf';
+    font-family: 'Apercu_Regular.otf'!important;
+    background-color: #2b2b2b;
 /*    background-color: #f1f2eb;*/
+}
+
+.under{
+    font-family: 'Apercu_Regular.otf';
+    font-size: 22px;
+    color: white;
+    margin-top: 30px;
+    text-align-last: right;
+}
+
+.touch{
+   font-family: 'Apercu_Regular.otf';
+    font-size: 22px;
+    color: #2b2b2b; 
+}
+
+.align{
+    font-family: 'Apercu_Regular.otf';
+    font-size: 22px;
+    color: white;
+    margin-top: 30px;
+    text-align-last: left;
+    
+}
+
+.margin{
+    padding-left: 20px;
+}
+
+.thrive{
+    margin-top: 150px;
+}
+
+.padding{
+    margin-top: 50px;
+}
+.grey{
+    color: #848484;
+    font-family: 'Apercu_Regular.otf';
+    font-size: 22px;
+}
+.ontopvideo{
+    position: absolute;
+    font-size: 30px;
+    font-family: 'Apercu Light.otf';
+    margin-top: 530px;
+    margin-left: 50px;
+    color: #bababa;
+}
+
+.black{
+    color: black;
+    font-family: 'Apercu Bold.otf';
 }
 
 .navbar-toggler .navbar-toggler-icon{
@@ -431,6 +547,9 @@ body{
 /*    margin-bottom: 20px;*/
 }
 
+.padding40{
+padding-top: 80px;}
+
 .movethree{
     margin-top: 50px;
 }
@@ -466,43 +585,25 @@ body{
 .padding-50px{
    margin-top: 70px;
 }
-.footer{
-     font-family: 'Spectral';
-    font-size: 24px;
-    padding-bottom: 20px;
-    background-color: #d1d3d4;
-    margin-top: 50px;
-/*    color:#a7a9ac;*/
+
+.smaller{
     
-}
-body{background-color: #f1f2f2;
-}
-.footertwo{
-     font-family: 'Spectral';
-    font-size: 20px;
-/*     color:#a7a9ac;*/
-    
-    
-    text-align: center;
-/*    margin-top: 102px;*/
-}
-/*
-    margin-top: 50px;
-    margin-bottom: 30px;
-*/
-/*    color: #f16374;*/
-/*
-    margin-top: 50px;
-    margin-bottom: 20px;
-*/
 }
 
-.heading{
-    font-family: 'Oscine_Trial_XBd.ttf';
-    font-size: 40px;
-    color: #f16374!important;
-    margin-top: 8px;
+.footer{
+    padding-left: 50px;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+/*    padding-bottom: 50px;*/
+    background-color: #808080;
 }
+
+.footertwo{
+    background-color: #808080; 
+}
+
+
 
 
 a:hover.heading{
@@ -511,27 +612,12 @@ a:hover.heading{
 }
 
 
-.forty{
-    font-family: 'Oscine_Trial_XBd.ttf';
-    font-size: 40px;
-    line-height: 45px;
-}
-
-.bigheading{
-     font-family: 'Oscine_Trial_XBd.ttf';
-    font-size: 110px;
-    line-height: 128px;
-}
-/*
-.explanation{
-    margin-left: 575px;
-    margin-top: -115px;
-}
-*/
 .bodycopy{
-    font-family: 'Spectral';
-    font-size: 20px;
-    line-height: 30px;
+    font-family: 'Apercu_Regular.otf';
+    font-size: 22px;
+    line-height: 32px;
+    color: white;
+    
 }
 .footertext{
     font-family: 'Spectral';
@@ -583,34 +669,7 @@ a:hover.heading{
 .posteruno{
     margin-top: 30px;
 }
-.descriptionone{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: #58595b;
-    margin-left: 83px;
-    text-align:right;
-}
-.descriptiontwo{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: #58595b;
-    margin-left: 225px;
-    text-align:right;
-}
-.descriptionthree{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: #58595b;
-    margin-left: 53px;
-    text-align:right;
-}
-.descriptionfour{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: #58595b;
-    margin-left: 305px;
-    text-align:right;
-}
+
 .texttwo{
     padding-bottom: 30px;
 }
@@ -618,6 +677,10 @@ a:hover.heading{
 .nextproject{
     padding-left:  63px;
     text-align: right;
+}
+
+.descrip{
+    margin-top: 40px;
 }
 .quote{
 font-family: 'Spectral';
@@ -652,15 +715,8 @@ font-family: 'Spectral';
     margin-top: -16px;
 }
 
-body{
-/*  background-color: #f1f2eb;*/
-/*  padding-top: 30px;*/
-    font-family: "Oscine_Trial_XBd.ttf"
-
-}
-.bodycopybold{
-    font-family: 'Spectral:700', serif, ;
-    font-size: 20px;
+.colour{
+    color: white;
 }
 
 .move{
@@ -771,11 +827,11 @@ Extra large   ≥1200px   .col-xl-
    
 }
 .ontopvideo{
-    padding-top: 140px;
+    padding-top: 110px;
 }
 
 .design{
-    font-family: "Oscine_Trial_XBd.ttf";
+    font-family: "Apercu_Regular.otf";
     font-size: 120px;
     line-height: 128px;
     text-align: center;
@@ -801,11 +857,13 @@ Extra large   ≥1200px   .col-xl-
 }
 
 a{
-    color: #f16374;
+    color: #2b2b2b;
 }
 
+
+
 a:hover{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -928,24 +986,7 @@ a:active {
 }
 
 @media only screen and (max-width:576px)
-{ .ontopvideo{
-   position:absolute;
-    margin-top:0;
-    top:0;
-    left:0;
-/*    z-index:1;*/
-    color: white;
-    margin-left: 0x;
-    font-family: "Oscine_Trial_XBd.ttf";
-    font-size: 50px;
-    line-height: 55px;
-    text-align: left;
-    margin-left: 10px;
-    margin-top: 100px;
-    margin-bottom: 6px;
-    
-    
-}
+
    
     
     

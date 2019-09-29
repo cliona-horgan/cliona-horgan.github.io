@@ -47,6 +47,8 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
 }
 */
 
+
+
 .bg-light{
     transition: 200ms ease;
     background: transparent !important;
@@ -445,7 +447,7 @@ body{
     font-family: 'Apercu Light.otf';
     margin-top: 530px;
     margin-left: 50px;
-    color: #bababa;
+    color: white;
 }
 
 .black{

@@ -436,12 +436,13 @@ body{
     font-size: 22px;
 }
 .ontopvideo{
-    position: absolute;
+/*    position: absolute;*/
     font-size: 30px;
     font-family: 'Apercu Light.otf';
-    margin-top: 510px;
-    margin-left: 50px;
+    margin-left: -110px;
+    
     color: white;
+    text-align: left
 }
 
 .black{
@@ -902,13 +903,15 @@ Extra large   ≥1200px   .col-xl-
 @media only screen and (max-width:576px)
 { 
     
+/*
     .navbar-brand{
         font-size:18px;
         }
+*/
     
     .ontopvideo{
 
-       margin-top: 135px;
+/*       margin-top: 135px;*/
         font-size: 14px;
     }
     
@@ -940,9 +943,11 @@ Extra large   ≥1200px   .col-xl-
 
 @media only screen and (max-width:768px){
     
+/*
     .navbar-brand{
         font-size:18px;
         }
+*/
     
     .ontopvideo{
 

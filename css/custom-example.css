@@ -90,12 +90,6 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
 /*    height: 821px;*/
 }
 
-.ontopvideo{
-   
-/*    position:absolute;*/
-/*    margin-top: -100px;*/
-
-}
 
 .text{
     padding-top: 20px;
@@ -255,7 +249,9 @@ height: 3600px;
     color: white;
     
 }
-
+video{
+width:100%
+}
 .subheading{
      font-family: 'Apercu_Regular.otf';
     font-size: 32px;
@@ -734,28 +730,6 @@ width: 100%;
     height:auto;
 }
 
-/* 
-# Responsive breakpoints
-# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
-Extra small   <576px  	.col-
-Small         ≥576px    .col-sm-
-Medium        ≥768px    .col-md-
-Large         ≥992px    .col-lg-
-Extra large   ≥1200px   .col-xl-
-*/
-
-/* Apply these rules if the screen width is LESS than 576px */
-
-/*
-@media(max-width:576px){
-  div[class^="col"]{
-    border-style: solid;
-    border-color:black;
-  }
-}
-*/
-
-/* Apply these rules if the screen width is GREATER than 576px */
 
 
 
@@ -870,38 +844,11 @@ a:hover{
     text-decoration: none;
 }
 
-/*
-<style>
-a:link {
-    color: black;
-    background-color: transparent; 
-    text-decoration: none;
-}
 
-a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #f16374;
-    background-color: transparent;
-    text-decoration:none;
-}
-*/
 .bottomnav{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-/*
-a:active {
-    color:#f16374;
-    background-color: transparent;
-    text-decoration: none;
-}
-</style>
-*/
 
 .linkcolor a:link{
     color: aqua;
@@ -925,259 +872,86 @@ a:active {
 
 }
 
+/* 
+# Responsive breakpoints
+# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
+Extra small   <576px  	.col-
+Small         ≥576px    .col-sm-
+Medium        ≥768px    .col-md-
+Large         ≥992px    .col-lg-
+Extra large   ≥1200px   .col-xl-
+*/
+
+/* Apply these rules if the screen width is LESS than 576px */
+
+/*
+@media(max-width:576px){
+  div[class^="col"]{
+    border-style: solid;
+    border-color:black;
+  }
+}
+*/
+
+/* Apply these rules if the screen width is GREATER than 576px */
+
+
 
 
 
 @media only screen and (max-width:576px)
 { 
-/*
-    .overlay {
-    position:absolute;
     
-    top:0;
-    left:0;
-    z-index:1;
-    color: white;
+    .navbar-brand{
+        font-size:18px;
+        }
     
-    font-family: "Oscine_Trial_XBd.ttf";
-    font-size: 20px;
-    line-height: 28px;
-    text-align: left;
-   
-   
-}
-*/
-    
+    .ontopvideo{
 
-.explanation{
-    
-}
-
-
-/*
-    .height{
-        900px;
-    }
-*/
-
-
-
-}
-
-@media only screen and (max-width:576px)
-{ .project{
-    font-family: 'Oscine_Trial_XBd.ttf';
-    font-size: 35px;
-    line-height: 35px;
-    margin-left: -14px;
-    color: #f16374;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    text-align: left;}
-}
-    
-}
-
-@media only screen and (max-width:576px)
-{ .design{
-/*    font-size: 40px;*/
-/*    margin-left: -100px;*/
-    
-    margin-right: 200px;
-    
-}
-}
-
-@media only screen and (max-width:576px)
-
-   
-    
-    
-    .mobile{
-display: none;}
-    .shiftthree{
-        margin-top: 40px;
-    }
-    .namebootom{
-        display: none;
-    }
-    .separate{
-    font-family: 'Oscine_Trial_XBd.ttf';
-   font-size: 50px;
-    line-height: 55px;
-    margin-top: 70px;
-        margin-bottom: 200px;
-    color: #99d4c0;
-}
-    
-    .lost{
-    font-family: 'Oscine_Trial_XBd.ttf';
-   font-size: 50px;
-    line-height: 55px;
-    margin-top: 70px;
-        margin-bottom: 200px;
-    color: aqua;
-}
-       .cyclists{
-    font-family: 'Oscine_Trial_XBd.ttf';
-   font-size: 50px;
-    line-height: 55px;
-    margin-top: 70px;
-        margin-bottom: 200px;
-    
-} 
-    .padding-50px{
-   margin-top: 0px;
-}
-    
-    .shiftfour{
-        margin-top: -50px;
+       margin-top: 135px;
+        font-size: 14px;
     }
     
-    .footertwo{
-     font-family: 'Spectral';
-    font-size: 20px;
+    .thrive{
+        margin-top: 25px;}
     
-        text-align: left;}
-    
-    .footer{
-        margin-top: 40px;
-        
+    .grey{
+        font-size: 18px;
     }
     
-    .photo{
-    background-image: url(../img/DAD%20IMAGE.png);
-    background-repeat: no-repeat;
-    background-position: center;
-     height: 300px;
-        margin-top: -40px;
-}
-    .photothree{
-    background-image: url(../img/NEWOLDFEELING.png);
-    background-repeat: no-repeat;
-    background-position: center;
-     height: 300px;
-/*        margin-top: -100px;*/
-}
-    
-    .bottomnav{
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-    .shift{
-        margin-top: -40px;
-    }
-    .childhood{
-    font-family: 'Oscine_Trial_XBd.ttf';
-    font-size: 35px;
-    line-height: 40px;
-    margin-left: 0px;
-    color: #f16374;}
-    
-    .bottomcyclists{
-        display: none
-    }
-    .descriptionone{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: #58595b;
-    margin-left: 0px;
-    text-align:right;
-        display: none;
-}
-    .descriptiontwo{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: #58595b;
-    margin-left: 0px;
-    text-align:right;
-        display: none;
-}
-    .explanation{
-    margin-left: 0px;
-    margin-top: 0px;
-    font-size: 14px;
-    line-height: 20px;
-        margin-top: -75px;
-        margin-left: 150px;
-        display: none;
-}
-    .heading{
-    margin-bottom: 20px;
-    font-size: 35px;
-    line-height: 40px;
-        margin-top: 15px;
-        color: black;
-        
-      
-        
-}
-    .nextproject{
-    padding-left:  0px;
-    margin-bottom: 50px;
-    margin-top: -30px;
-    text-align: right;
-}
-    .descriptionfour{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: #58595b;
-    margin-left: 200px;
-    text-align:right;
-    display: none;
-}
-    .descriptionthree{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: #58595b;
-    margin-left: 0px;
-    text-align:right;
-        display: none;
-}
-    .about{
-        text-align: left;
-        margin-left:-3px; 
+    .under{
+        font-size: 18px;
+        text-align: right;
     }
     
+    .padding{
+        margin-top: 20px;
+    }
     
-/*
-    .photo{
-    background-image: url(../img/mobileseparate_00000.png);
-    background-repeat: no-repeat;
-    background-position: center;
-     height: 300px;
-*/
+    .align{
+        font-size: 18px;
+    }
+    
+    .margin{
+        padding-left: 0px;
+    }
 }
-/*
-.photo:hover{
-    background-image: url(../video/mobileseparate_00000.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;
-*/
 }
 
-}
-@media only screen and (max-width:576px)
-{ .descriptionone{
+@media only screen and (max-width:768px){
+    
+    .navbar-brand{
+        font-size:18px;
+        }
+    
+    .ontopvideo{
 
-/*    margin-right: 950px;*/
-  
-    
-    
-        
-    
-   
-}
-}
-@media only screen and (max-width:576px)
-{ 
-    .imagefluid{
-    max-width: 100%;
-        height: auto;
+        margin-top: 95px;
+        font-size: 18px;
+    }
 }
 
-    {}             }
+
 
 /* Apply these rules if the screen width is GREATER than 768px */
 

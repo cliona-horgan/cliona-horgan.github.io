@@ -83,7 +83,8 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
     text-align: center;
     padding-top: 20px;
 }
-
+.container-fluid{
+width:100%;}
 .height{
 /*    height: 821px;*/
 }
@@ -93,6 +94,15 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
 /*    position:absolute;*/
 /*    margin-top: -100px;*/
 
+}
+img{
+    width: 100%;
+    height:auto;
+}
+
+video{
+    width: 100%;
+    height:auto;
 }
 
 .text{

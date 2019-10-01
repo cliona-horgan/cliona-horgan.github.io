@@ -98,7 +98,7 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
 a:link.nav-link.abc{
     font-family:'Apercu_Regular.otf';
     font-size: 22px;
-    margin-right: 10px;
+/*    margin-right: 10px;*/
     font-weight: 300;
 }
 
@@ -107,7 +107,7 @@ a:link.nav-link.abc{
 a:visited .nav-link.abc{
     font-family:'Apercu_Regular.otf';
     font-size: 18px;
-    margin-right: 10px;
+/*    margin-right: 10px;*/
     font-weight: 300;
     color: #95d8ed!important;
 }
@@ -123,7 +123,10 @@ a:active.nav-link.abc{
 }
 
 
-
+video {
+  width: 100%;
+  height: auto;
+}
 
 .abc path {
     fill: white;
@@ -222,7 +225,18 @@ height: 3600px;
     min-height:100%;
 }
 */
-
+/*
+.container{
+  position: relative;
+  width: 100%
+}
+.container video{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);                            
+}
+*/
 .scrollover{
     padding-top: 100px;
 }
@@ -374,9 +388,7 @@ video embed {
 .projectdescription{
  margin-top: -156px;
 }
-.navbar-nav{
-/*    padding-right:153px;*/
-}
+
 .blue{
 /*    background-color: blue;*/
 }

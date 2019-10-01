@@ -28,7 +28,10 @@ font-weight: 100;
 src: url('../fonts/Apercu Light.otf'); 
 }
 
-
+img{
+    width: 100%;
+    height:auto;
+}
 .main{
     margin-top: -100px;
 }

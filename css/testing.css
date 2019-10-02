@@ -25,6 +25,12 @@ src: url('../fonts/Apercu Light.otf');
 }
 
 
+.container-fluid video{
+    position: relative;
+    z-index: 0;
+    padding-left:0;
+}
+
 
 
 
@@ -57,13 +63,17 @@ img{
 }
 .abc.ncol{
     color: white!important;
+    position: absolute;
 }
 
 .abc{
     color: white!important;
+    position: absolute;
+    z-index: 1;
 }
 
-a:link.nav-link.abc{
+a:link.abc{
+    position: absolute;
     font-family:'Apercu_Regular.otf';
     font-size: 22px;
     margin-right: 10px;

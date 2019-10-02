@@ -73,23 +73,13 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
 .abc{
     color: white!important;
 }
-.image{
-    width: 200px;
-    margin-top: -100px;
-}
+
 .active{
     color: black!important;
     font-weight:600!important;
 }
 
-.explanation{
-    text-align: center;
-    padding-top: 20px;
-}
 
-.height{
-/*    height: 821px;*/
-}
 
 .ontopvideo{
    
@@ -120,7 +110,7 @@ a:visited .nav-link.abc{
 }
 
 a:hover.nav-link.abc{
-    color: black!important;
+    color: grey!important;
     text-decoration: none !important;
 }
 
@@ -129,7 +119,10 @@ a:active.nav-link.abc{
     text-decoration: none !important;
 }
 
-
+video {
+  width: 100%;
+  height: auto;
+}
 
 
 .abc path {
@@ -138,52 +131,20 @@ a:active.nav-link.abc{
 .abc.ncol path{
     fill: #828eac;
 }
+.navbar-nav { 
+    flex-direction: row;
+}
+.navbar-nav .nav-link{
+    padding-left: 10px;
+}
+
 
 
 
-.navbar-expand-md .navbar-nav .nav-link{
- 
-}
 
-.icon-bar {
-	width: 22px; 
-	height: 2px;
-	background-color: #B6B6B6;
-	display: block;
-	transition: all 0.2s;
-	margin-top: 4px
-}
- 
-.navbar-toggler {
-  border: none;
-  background: transparent !important;
-}
 
-.navbar-toggler .top-bar {
-  transform: rotate(45deg);
-  transform-origin: 10% 10%;
-}
  
-.navbar-toggler .middle-bar {
-  opacity: 0;
-}
- 
-.navbar-toggler .bottom-bar {
-  transform: rotate(-45deg);
-  transform-origin: 10% 90%;
-}
- 
-.navbar-toggler.collapsed .top-bar {
-  transform: rotate(0);
-}
- 
-.navbar-toggler.collapsed .middle-bar {
-  opacity: 1;
-}
- 
-.navbar-toggler.collapsed .bottom-bar {
-  transform: rotate(0);
-}
+
 /*
  html,body {
        padding:0;
@@ -418,10 +379,7 @@ video embed {
 .padding-20px{
     margin-top: 20px;
 }
-.navbar .navbar-nav .nav-item .nav-link:hover{
-    color:#f16374;
-/*    font-family: 'Oscine_Trial_Bd.ttf';*/
-}
+
 body{
     font-family: 'Apercu_Regular.otf'!important;
     background-color: #2b2b2b;
@@ -454,13 +412,7 @@ body{
     margin-left: 50px;
 }
 
-.navbar-toggler .navbar-toggler-icon{
-    background-image: url(../img/hamburger2.svg); !important;
-    border: none;
-}
-.navbar-toggler {
-    background-color: #f1f2eb;
-}
+
 
 .photo{
     background-image: url(../img/DAD%20IMAGE.png);
@@ -954,239 +906,50 @@ a:active {
 
 }
 
-@media only screen and (max-width:576px)
-{ .project{
-    font-family: 'Oscine_Trial_XBd.ttf';
-    font-size: 35px;
-    line-height: 35px;
-    margin-left: -14px;
-    color: #f16374;
-    margin-bottom: 30px;
-    margin-top: 50px;
-    text-align: left;}
-}
-    
-}
+@media only screen and (max-width:576px){ 
 
-@media only screen and (max-width:576px)
-{ .design{
-/*    font-size: 40px;*/
-/*    margin-left: -100px;*/
-    
-    margin-right: 200px;
-    
-}
-}
 
-@media only screen and (max-width:576px)
-{ .ontopvideo{
-   position:absolute;
-    margin-top:0;
-    top:0;
-    left:0;
-/*    z-index:1;*/
-    color: white;
-    margin-left: 0x;
-    font-family: "Oscine_Trial_XBd.ttf";
-    font-size: 50px;
-    line-height: 55px;
-    text-align: left;
-    margin-left: 10px;
-    margin-top: 100px;
-    margin-bottom: 6px;
-    
-    
-}
-   
-    
-    
-    .mobile{
-display: none;}
-    .shiftthree{
-        margin-top: 40px;
+  .abc{
+        font-size: 15px;
     }
-    .namebootom{
+    
+    a.nav-link.abc{
+        font-size: 15px!important;
+    }
+    
+    .surname{
         display: none;
     }
-    .separate{
-    font-family: 'Oscine_Trial_XBd.ttf';
-   font-size: 50px;
-    line-height: 55px;
-    margin-top: 70px;
-        margin-bottom: 200px;
-    color: #99d4c0;
-}
     
-    .lost{
-    font-family: 'Oscine_Trial_XBd.ttf';
-   font-size: 50px;
-    line-height: 55px;
-    margin-top: 70px;
-        margin-bottom: 200px;
-    color: aqua;
-}
-       .cyclists{
-    font-family: 'Oscine_Trial_XBd.ttf';
-   font-size: 50px;
-    line-height: 55px;
-    margin-top: 70px;
-        margin-bottom: 200px;
-    
-} 
-    .padding-50px{
-   margin-top: 0px;
-}
-    
-    .shiftfour{
-        margin-top: -50px;
+    .nav-item{
+        display: inline!important;
     }
-    
-    .footertwo{
-     font-family: 'Spectral';
-    font-size: 20px;
-    
-        text-align: left;}
-    
-    .footer{
-        margin-top: 40px;
-        
+    .navbar-brand{
+        margin-left: 0px;
+        margin-top: -10px;
     }
-    
-    .photo{
-    background-image: url(../img/DAD%20IMAGE.png);
-    background-repeat: no-repeat;
-    background-position: center;
-     height: 300px;
-        margin-top: -40px;
-}
-    .photothree{
-    background-image: url(../img/NEWOLDFEELING.png);
-    background-repeat: no-repeat;
-    background-position: center;
-     height: 300px;
-/*        margin-top: -100px;*/
-}
-    
-    .bottomnav{
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-    .shift{
-        margin-top: -40px;
+    .navbar-nav .nav-link{
+    margin-top: -10px;
     }
-    .childhood{
-    font-family: 'Oscine_Trial_XBd.ttf';
-    font-size: 35px;
-    line-height: 40px;
-    margin-left: 0px;
-    color: #f16374;}
-    
-    .bottomcyclists{
-        display: none
-    }
-    .descriptionone{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: #58595b;
-    margin-left: 0px;
-    text-align:right;
+    .carousel-caption{
         display: none;
-}
-    .descriptiontwo{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: #58595b;
-    margin-left: 0px;
-    text-align:right;
-        display: none;
-}
-    .explanation{
-    margin-left: 0px;
-    margin-top: 0px;
-    font-size: 14px;
-    line-height: 20px;
-        margin-top: -75px;
-        margin-left: 150px;
-        display: none;
-}
-    .heading{
-    margin-bottom: 20px;
-    font-size: 35px;
-    line-height: 40px;
-        margin-top: 15px;
-        color: black;
-        
-      
-        
-}
-    .nextproject{
-    padding-left:  0px;
-    margin-bottom: 50px;
-    margin-top: -30px;
-    text-align: right;
-}
-    .descriptionfour{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: #58595b;
-    margin-left: 200px;
-    text-align:right;
-    display: none;
-}
-    .descriptionthree{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: #58595b;
-    margin-left: 0px;
-    text-align:right;
-        display: none;
-}
-    .about{
-        text-align: left;
-        margin-left:-3px; 
     }
     
-   
-    
-    
-/*
-    .photo{
-    background-image: url(../img/mobileseparate_00000.png);
-    background-repeat: no-repeat;
-    background-position: center;
-     height: 300px;
-*/
-}
-/*
-.photo:hover{
-    background-image: url(../video/mobileseparate_00000.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;
-*/
-}
+
+
+
+
+
+
+
+
+
 
 }
-@media only screen and (max-width:576px)
-{ .descriptionone{
+    
 
-/*    margin-right: 950px;*/
-  
-    
-    
-        
-    
-   
-}
-}
-@media only screen and (max-width:576px)
-{ 
-    .imagefluid{
-    max-width: 100%;
-        height: auto;
-}
 
-    {}             }
+
 
 /* Apply these rules if the screen width is GREATER than 768px */
 

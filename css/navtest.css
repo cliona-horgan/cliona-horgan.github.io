@@ -144,7 +144,7 @@ video {
 
 .grey{
     color: #848484;
-
+    margin-top: -15px;
 }
 
 .white{
@@ -167,56 +167,26 @@ video {
 }
 
 .space30{
-padding-top: 30px;
+padding-top: 150px;
 
 }
 
-/*
  .text{
-     padding-top: 15px;}
-*/
+     padding-top: 35px;}
 
  .lost{
         padding-top: 50px;
     }
 
-
+.descrip{
+    padding-top: 8px;
+}
+.footer{
+    padding-top: 50px;
+}
 
 .padding20{
     padding-top: 130px;
-}
-
-/*
-.links{
-    padding-top: 100px;
-}
-*/
-
-.space40{
-    padding-top: 60px;
-}
-
-.footer{
-    padding-bottom: 50px;
-}
-
-.space80{
-    padding-top:100px;
-}
-
-.links{
-    text-align: right;
-}
-
-a{
-    color: #848484;
-    text-decoration: none;
-    
-
-}
-a:hover{
-    color: white;
-    text-decoration: none;
 }
 
 
@@ -238,14 +208,6 @@ a:hover{
     
     .surname{
         display: none;
-    }
-    
-    .descrip{
-   margin-top: -15px;
-}
-    
-    .descrip{
-        padding-bottom: 5px;
     }
     
     .nav-item{
@@ -272,7 +234,7 @@ a:hover{
     }
     
     .padding20{
-padding-top: 10px;
+        padding-top: 30px;
     }
     
     .margin{
@@ -287,14 +249,9 @@ padding-top: 10px;
         font-size: 18px;
     }
     
-    .space40{
-        padding:0px;
-    }
-/*
     grey{
         margin-bottom: 10px;
     }
-*/
     
     .lost{
         padding-top: 30px;
@@ -304,17 +261,6 @@ padding-top: 10px;
         padding-top:10px;
     }
     
-    .links{
-        text-align: left;
-    }
-    
-    .space80{
-        padding-top: 30px;
-    }
-    
-    .bottom10{
-        margin-bottom: 10px;
-    }
    
     
 }

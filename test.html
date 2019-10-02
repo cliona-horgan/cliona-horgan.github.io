@@ -15,62 +15,32 @@
    <body>
        
        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        
-            <a class="navbar-brand abc" href="index.html"> 
-                Clíona Horgan
-           </a>
-        
-        
-<!--
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-             
--->
-             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarsSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                 
-	           <span class="icon-bar top-bar"></span>
-	           <span class="icon-bar middle-bar"></span>
-	           <span class="icon-bar bottom-bar"></span>				
-            </button>
-     
-        
-
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                
-                
-        
-        
-               
-        
-                <li class="nav-item">
-                    <a class="nav-link abc" href="index.html">Projects</a>
-        
-                </li>
-        
-                <li class="nav-item">
-                    <a class="nav-link abc" href="about.html">About </a>
-        
-                </li>
-        
-<!--
-                <li class="nav-item">
-                    <a class="nav-link abc" href="#contact">Contact</a>
-        
-                </li>
--->
-        
-                
-        
+    <div class="container">
        
-            </ul>
+       <div class="row bg-light">
+           
+           
+            <div class="col-3 abc">
+                <a class="abc" href="index.html">Cliona Horgan</a>
+                
+           </div>
+           
+           <div class="col-2 offset-3">
+           
+           <a class="abc" href="#">Projects</a>
+           
+           </div>
+           
+            <div class="col-2">
+           
+           <a class="abc" href="#">About</a>
+           
+           </div>
+        
+        
         </div>
-        
-    
-        </nav>
+       
+    </div>
        
        
        
@@ -80,17 +50,66 @@
        
        
        
-       <div class="container-fluid">
+       
+       
+    <div class="container-fluid">
            
-           <div class="row">
+<!--
+        <div class="row">
+               
+            <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+
+        Slides
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+                <video width="100%"class="video-fluid embed-responsive-item" autoplay loop muted>
+                    <source src="video/Comp%204_1.mp4" type="video/mp4" />
+                </video>
+            </div>
+            
+        <div class="carousel-caption">
+            
+                <p class="ontopvideo"><span class="black">Meaningful design solutions<br></span>
+                A multidiscplinary designer passionate<br> 
+                about user centered design.</p>
+        </div>
+      
+        <div class="carousel-item">
+            <video width="100%" class="video-fluid embed-responsive-item" autoplay loop muted>
+                <source src="video/david%20cycling.mp4" type="video/mp4" />
+            </video>
+        </div>
+      
+       <div class="carousel-item">
+            <video width="100%"class="video-fluid embed-responsive-item" autoplay loop muted>
+                <source src="video/webscroll.mp4" type="video/mp4" />
+            </video>
+        </div>
+      
+        <div class="carousel-item">
+            <video width="100%"class="video-fluid embed-responsive-item" autoplay loop muted>
+                <source src="video/abstract.mp4" type="video/mp4" />
+            </video>
+        </div>
+      
+  
+        </div>
+                   
+    </div>
+            
+-->
+            
+            
            
-                <video width="100%"playsinline autoplay muted controls loop class="embed-repsonsive-item" >
+                <video id="video" width="100%"playsinline autoplay muted controls loop class="embed-repsonsive-item position" >
                 <source src="video/cyclists_correct.mp4" type="video/mp4" >
                     
             </video>
            
-           </div>
+         </div> 
            
+       
+       <div class="container-fluid">
             <div class="row">
             <img width="100%"class="one" src="img/Cliona_book_2.jpg">   
            
@@ -99,18 +118,64 @@
         <img width="100%"class="two" src="img/Cliona_book_9.jpg">   
            
         </div>
-           
-       
        </div>
+            
        
        
        
-        
+       
+       
+         
+         
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+       
+       <script>
+        function openForm() {
+    document.getElementById("myForm").style.display = "block";
+    }
+
+    function closeForm() {
+    document.getElementById("myForm").style.display = "none";
+    }
+        </script>
+        
+           
+        <script>AOS.init({
+            duration: 1200,
+            })</script>
+            
+                
+            <script>         
+        AOS.init();
+            </script>
+    <script>
+    
+    $(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() >150);
+    });
+        
+    </script> 
+        
+        
+    <script>
+        
+    $(window).scroll(function(){
+    if ( $(this).scrollTop() > 150){
+    $ ('.abc') .addClass ('ncol'); 
+    } else{
+    $ ('.abc') .removeClass('ncol');
+    }
+    });
+      
+    </script>
+       
+       
+       
     </body>
 </html>

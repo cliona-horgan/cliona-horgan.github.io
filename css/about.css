@@ -221,6 +221,7 @@ padding-top: 150px;
 
 .footer{
     padding-bottom: 50px;
+   
 }
 
 .space80{
@@ -261,6 +262,7 @@ a.spaceleft:hover{
 
 .pushagain{
 /*    margin-top: 80px;*/
+    margin-top: 90px;
      padding-left: 40px;
     padding-right: 40px;
 }
@@ -380,6 +382,10 @@ a.spaceleft:hover{
     margin-top: 180px;
 }
 @media only screen and (max-width:576px){
+    
+    .pushagain{
+        margin-top: 10px;
+    }
     
     .about{
         margin-top: 70px;

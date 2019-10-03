@@ -28,13 +28,15 @@ font-weight: 100;
 src: url('../fonts/Apercu Light.otf'); 
 }
 
-img{
-    width: 100%;
-    height:auto;
+body{
+    background-color: #2b2b2b;
 }
-.main{
-    margin-top: -100px;
+.bodycopy{
+    font-family: 'Apercu_Regular.otf';
+    font-size: 22px;
+    color: white;
 }
+
 /*
 @font-face 
 {
@@ -64,7 +66,8 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
 .navbar-brand {
     margin-left: 22px;
     font-size: 25px;
-    color:#f16374!important;
+    font-family: 'Apercu Bold.otf';
+    color:!important;
 }
 .abc.ncol{
     color: white!important;
@@ -79,15 +82,6 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
     font-weight:600!important;
 }
 
-
-
-.ontopvideo{
-   
-/*    position:absolute;*/
-/*    margin-top: -100px;*/
-
-}
-
 .text{
     padding-top: 20px;
 }
@@ -95,7 +89,7 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
 a:link.nav-link.abc{
     font-family:'Apercu_Regular.otf';
     font-size: 22px;
-    margin-right: 10px;
+/*    margin-right: 10px;*/
     font-weight: 300;
 }
 
@@ -104,7 +98,7 @@ a:link.nav-link.abc{
 a:visited .nav-link.abc{
     font-family:'Apercu_Regular.otf';
     font-size: 18px;
-    margin-right: 10px;
+/*    margin-right: 10px;*/
     font-weight: 300;
     color: #95d8ed!important;
 }
@@ -115,15 +109,15 @@ a:hover.nav-link.abc{
 }
 
 a:active.nav-link.abc{
-    color:#95d8ed!important;
+    color:gainsboro;
     text-decoration: none !important;
 }
+
 
 video {
   width: 100%;
   height: auto;
 }
-
 
 .abc path {
     fill: white;
@@ -131,6 +125,12 @@ video {
 .abc.ncol path{
     fill: #828eac;
 }
+
+
+.align{
+    text-align: right;
+}
+
 .navbar-nav { 
     flex-direction: row;
 }
@@ -140,776 +140,171 @@ video {
 
 
 
-
-
-
- 
-
-/*
- html,body {
-       padding:0;
-     margin:0;}
-*/
-/*
-.scroll{
-    position: fixed;
-    z-index: -99;
-     height:100%;
-        width:100%;
-}
-.wrapper{
-      position:absolute;
-        height:100%;
-        width:100%;
+.grey{
+    color: #848484;
     
 }
-.scrollover{
-height: 3600px; 
-  overflow-y: scroll;
-    background-color: #f1f2eb; !important;
-    position:relative;
-        height:100%;
-        width:100%;
-    margin-top:100%;
-    min-height:100%;
+
+.white{
+    color: white;
 }
-*/
+
+.ontopvideo{
+/*    position: absolute;*/
+    font-size: 30px;
+    font-family: 'Apercu Light.otf';
+    margin-left: -110px;
+    
+    color: white;
+    text-align: left
+}
+
+.black{
+    color: black;
+    font-family: 'Apercu Bold.otf';
+}
+
+.space30{
+padding-top: 150px;
+
+}
+
+ .text{
+     padding-top: 35px;}
+
+ .lost{
+        padding-top: 50px;
+    }
+
+.descrip{
+    padding-top: 8px;
+}
+
+
+
+.padding20{
+    padding-top: 130px;
+}
+
+.project
+    {font-family:  'Apercu Bold.otf';
+    font-size: 100px;
+    line-height: 120px;
+    color: white;}
+
+.subheading{
+     font-family: 'Apercu_Regular.otf';
+    font-size: 22px;
+    line-height: 38px;
+    color: #848484;
+}
+
+.space60{
+    padding-top:100px;
+}
+
  .one{
         margin-top: 100px;
     }
 
 .two{
-    margin-top: 20px;
-}
-.scrollover{
-    padding-top: 100px;
-}
-.logo{
-   color:#f16374; 
-}
-.red{
-    color: #d6232b;
-     margin-top: 30px;
-}
-.separate{
-    font-family: 'Apercu_Regular.otf';
-    font-size: 110px;
-    line-height: 128px;
-    margin-top: 100px;
-    color: #99d4c0;
+    margin-top: 15px;
 }
 
-
-.projectname{
-    font-family:  'Apercu Bold.otf';
-    font-size: 110px;
-    line-height: 128px;
-    color: white;
-    
-}
-.white{
-    color: white;
+.links{
+    text-align:right;
 }
 
-.subheading{
-     font-family: 'Apercu_Regular.otf';
-    font-size: 22px;
-    color: #848484;
-}
-
-.undervideo{
-    padding-top: 100px;
-    
-}
-.soon{
-   color: #99d4c0; 
-}
-.lost{
-    font-family: 'Apercu_Regular.otf';
-    font-size: 110px;
-    line-height: 128px;
-    margin-top: 100px;
-    color: #32c3e2;
-}
-
-.cyclists{
-    font-family: 'Apercu_Regular.otf';
-    font-size: 110px;
-    line-height: 128px;
-    margin-top: 100px;
-    color: #d6232b;
-}
-.intro{
-    font-family: 'Spectral';
-    font-size: 20px;
-    font-weight: 30px;
-    margin-top: 187px;
-}
-.checktwo{
-    background-color: bisque;
-}
-.check{
-/*    background-color: aqua;*/
-}
-.changecolour{
-    color: #98d4bf;
-    margin-top: 30px;
-    
-}
-
-.changecolour2{
-    color: #d6232b;
-    margin-top: 30px;
-    
-}
-
- .video{
-width: 100%    !important;
-  height:100% !important;
-  position: relative;
-    
-
-}
-
-.changecolour3{
-    color: #32c3e2;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    
-}
-.descrip{
-    margin-top: -15px;
-}
-.gif{
-    margin-top: 20px;
-}
-.push{
-    margin-top: 50px;
-    padding-left: 40px;
-}
-
-.pushtwo{
-    text-align: right;
-    margin-top: 50px;
-    padding-right: 40px;
-    
-}
-
-.next{
-    text-align: right;
-     
-}
-
-a:hover.next{
-color: #bfc0c2;
-}
-
-a:hover.previous{
-color: #bfc0c2;
-}
-
-a {
-    color: white;
-    font-family: 'Apercu_Regular.otf';
-    font-size: 22px;
-}
-
-.padding40{
-padding-bottom: 50px;
-
-}
-
-
-*/
-
-video embed {
-/*
-  width: 100%    !important;
-  height: auto   !important;
-*/
-}
-.thevideo{
-/*    width: 195px;*/
-}
-
-
-/*
-.navbar{
-    background-color: #f1f2eb !important;
-   
-}
-*/
-
-/*
-.navbar .navbar-brand{
-    color: black;
-    font-size: 30px;
-    margin-left: 153px;
-}
-*/
-
-/*
-.navbar .navbar-brand:hover{
-   color:#f16374;
-}
-*/
-
-
-
-
-.navbar .navbar-nav .nav-item .nav-link{
-    color: black;
-    font-size: 22px;
-    font-family: 'Apercu_Regular.otf';
-/*    margin-right: 30px;*/
-    
-}
-.projectdescription{
- margin-top: -156px;
-}
-.navbar-nav{
-/*    padding-right:153px;*/
-}
-.blue{
-/*    background-color: blue;*/
-}
-.red {
-/*    background-color: red;*/
-}
-.padding-20px{
-    margin-top: 20px;
-}
-
-body{
-    font-family: 'Apercu_Regular.otf'!important;
-    background-color: #2b2b2b;
-/*    background-color: #f1f2eb;*/
-}
-
-.under{
-    font-family: 'Apercu_Regular.otf';
-    font-size: 28px;
-    color: white;
-    margin-top: 20px;
-}
-.thrive{
-    margin-top: 150px;
-}
-
-.padding{
-    margin-top: 50px;
-}
-.grey{
-    color: #848484;
-    font-family: 'Apercu_Regular.otf';
-    font-size: 28px;
-}
-.ontopvideo{
-    position: absolute;
-    font-size: 37px;
-    font-family: 'Apercu Light.otf';
-    margin-top: 530px;
-    margin-left: 50px;
-}
-
-
-
-.photo{
-    background-image: url(../img/DAD%20IMAGE.png);
-    background-repeat: no-repeat;
-    background-position: center;
-     height: 300px;
-}
-.photo:hover{
-    background-image: url(../video/dad_1.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;
-}
-
-.photoone{
-    background-image: url(../img/NEWCYCLING.png);
-    background-repeat: no-repeat;
-    background-position: center;
-     height: 300px;
-    width: 100%;
-        position: relative;
-/*
-    display: block;
-    text-indent:-9999px;
-*/
-    
-    
-}
-
-
-.photoone:hover{
-    background-image: url(../video/newcylcing.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;
-}
-
-.photothree{
-    background-image: url(../img/comerfords.png);
-    background-repeat: no-repeat;
-    background-position: center;
-     height: 300px;
-}
-.photothree:hover{
-    background-image: url(../video/comerfords.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;
-}
-.photofour{
-    background-image: url(../img/gradshow_00000.png);
-    background-repeat: no-repeat;
-    background-position: center;
-     height: 300px;
-}
-
-.photofour:hover{
-    background-image: url(../video/gradshow_00000.gif);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;}
-
-.about{
-    font-family: 'Spectral';
-    font-size: 20px;
-    line-height: 30px;
-    
-}
-.underphoto{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: black;
-    margin-top: 10px;
-}
-
-.bold{
-    font-family: 'Spectral:700', serif, ;
-    font-size: 16px;
-    font-weight: 700;
-    color: #58595b;
-    margin-top: 10px
-}
-.movetwo{
-    margin-top: 90px;
-/*    margin-bottom: 20px;*/
-}
-
-.movethree{
-    margin-top: 50px;
-}
-.project{
-    font-family: 'Oscine_Trial_XBd.ttf';
-    font-size: 40px;
-    line-height: 45px;
-    margin-left: -14px;
-    color: #f16374;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    text-align: left;}
-
-.childhood{
-    font-family: 'Oscine_Trial_XBd.ttf';
-    font-size: 40px;
-    line-height: 45px;
-    margin-left: -14px;
-    color: #f16374;}
-/*
-    margin-bottom: 30px;
-    margin-top: 50px;
-*/
-    text-align: left;}
-
-.padding-40px{
-    margin-top: 80px;
-}
-
-.aboutpart{
-    padding-top: 50px;
-}
-.padding-50px{
-   margin-top: 70px;
-}
-
-.smaller{
-    
+.space40{
+    padding-top: 60px;
 }
 
 .footer{
-    padding-left: 50px;
-    margin-top: 100px;
-    padding-top: 50px;
-/*    padding-bottom: 50px;*/
-    background-color: #808080;
+    padding-bottom: 50px;
 }
 
-.footertwo{
-    background-color: #808080; 
+.space80{
+    padding-top:100px;
 }
-
-
-
-
-a:hover.heading{
-    color: #95d8ed;
+a{
+    color: #848484;
     text-decoration: none;
+    
+
 }
 
-
-.bodycopy{
-    font-family: 'Apercu_Regular.otf';
-    font-size: 22px;
-    line-height: 32px;
+a.link{
     color: white;
-    
-}
-.footertext{
-    font-family: 'Spectral';
-    font-size: 20px;
-    line-height: 30px;
-
 }
 
-.headingproject{
-     font-family: 'Oscine_Trial_XBd.ttf';
-    font-size: 40px;
-    line-height: 50px;
-    color: #99d4c0;
-    margin-top: 50px;
-  
+a.link:hover{
+    color: #848484;
 }
-.cover{margin-top: -445px;
-}
-.logo{
-    margin-top: 45px;
-}
-.minibook{
-    margin-top: 20px;
-}
-.book{
-    margin-top: 20px;
-}
-.projectexplain{
-    margin-top: 50px;
-}
-.allspreads{
-    margin-top: 20px;
-    background-color: black;
-    
-/*    margin-left: -43px;*/
-/*    margin-left: -167px;*/
-}
-.description{
-    font-family: 'Spectral';
-    font-size: 16px;
-    color: #58595b;
-/*    margin: 40px;*/
-}
-.green{
-    color: #99d4c0;
-    margin-top: 50px;
-    margin-bottom: 70px;
-}
-.posteruno{
-    margin-top: 30px;
-}
-
-.texttwo{
-    padding-bottom: 30px;
-}
-
-.nextproject{
-    padding-left:  63px;
-    text-align: right;
-}
-
-.descrip{
-    margin-top: 40px;
-}
-.quote{
-font-family: 'Spectral';
-    font-size: 20px;
-    text-align: left;
-    line-height: 30px;
-    color: black;
-   padding-bottom: 40px;
-   
-    
-    
-/*    margin-bottom: 50px;*/
-}
-.quotetwo{
-    font-family: 'Spectral';
-    font-size: 16px;
-   
-    text-align: left;
-    color: black;
-/*    margin: -10px;*/
-  
-    
-    
-/*    margin-bottom: 50px;*/
-}
-.paddingdad{
-    margin-top: -20px;
-}
-
-.paddingtop-18
-{
-    margin-top: -16px;
-}
-
-
-
-.move{
-    margin-top: 40px;
-    margin-bottom: 70px;
-}
-.posters{
-    margin-top: 20px;
-}
-img{
-width: 100%;
-    height:auto;
-}
-
-/* 
-# Responsive breakpoints
-# https://getbootstrap.com/docs/4.0/layout/overview/#responsive-breakpoints
-Extra small   <576px  	.col-
-Small         ≥576px    .col-sm-
-Medium        ≥768px    .col-md-
-Large         ≥992px    .col-lg-
-Extra large   ≥1200px   .col-xl-
-*/
-
-/* Apply these rules if the screen width is LESS than 576px */
-
-/*
-@media(max-width:576px){
-  div[class^="col"]{
-    border-style: solid;
-    border-color:black;
-  }
-}
-*/
-
-/* Apply these rules if the screen width is GREATER than 576px */
-
-
-
-
-
-/*    margin-top: 100px;*/
-
-
-
-.colour{
-/*    background-color: #f1f2eb;*/
-/*    height: 650px;*/
-}
-
-
-/*.container { position:relative; }*/
-.container video {
-/*    position:relative;*/
-/*    z-index:0;*/
-}
-
-.heading{
-    margin-bottom: 20px;
-    margin-top: 15px;
-    font-size: 40px;
-    line-height: 50px;
-}
-.closeup{
-    margin-top: 30px;
-}
-.over{
-/*
-    position: relative;
-    text-align: center;
-*/
-}
-
-.newspaper{
-    margin-top: 20px;
-}
-.overlay {
-    position:absolute;
-    margin-top: 380px;
-    top:0;
-    left:0;
-/*    z-index:1;*/
-    color: white;
-    margin-left: 280px;
-    font-family: "Oscine_Trial_XBd.ttf";
-    font-size: 120px;
-    line-height: 128px;
-    text-align: left;
-    margin-top: 220px;
-   
-}
-
-.ontopvideo {
-/*    position:absolute;*/
-/*    margin-top: 230px;*/
-/*
-    top:0;
-    left:0;
-    z-index:1;
-    color: white;
-    margin-left: 280px;
-    font-family: "Oscine_Trial_XBd.ttf";
-    font-size: 120px;
-    line-height: 128px;
-    text-align: left;
-*/
-/*    margin-top: 220px;*/
-   
-}
-.ontopvideo{
-    padding-top: 140px;
-}
-
-.design{
-    font-family: "Apercu_Regular.otf";
-    font-size: 120px;
-    line-height: 128px;
-    text-align: center;
-    color:#f16374;
-}
-
-.overlaythree{
-     position:absolute;
-/*    margin-top: 1030px;*/
-    top:0;
-    left:0;
-/*    z-index:1;*/
-    color: white;
-    margin-left:840px;
-
-    font-family: 'Spectral';
-    font-size: 20px;
-    line-height: 30px;
-   
-    text-align: left;
-    margin-top: 378px;
-    
-}
-
-
-
 
 
 a:hover{
-    color: black;
-    text-decoration: none;
-}
-
-/*
-<style>
-a:link {
-    color: black;
-    background-color: transparent; 
-    text-decoration: none;
-}
-
-a:visited {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #f16374;
-    background-color: transparent;
-    text-decoration:none;
-}
-*/
-.bottomnav{
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-/*
-a:active {
-    color:#f16374;
-    background-color: transparent;
-    text-decoration: none;
-}
-</style>
-*/
-
-.linkcolor a:link{
-    color: aqua;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.top{
-    width: 100% !important;
-  height: 100%!important;
-  position: relative;
-
-}
-
-
-
-
-@media only screen and (max-width:576px)
-{ 
-/*
-    .overlay {
-    position:absolute;
-    
-    top:0;
-    left:0;
-    z-index:1;
     color: white;
-    
-    font-family: "Oscine_Trial_XBd.ttf";
-    font-size: 20px;
-    line-height: 28px;
-    text-align: left;
-   
-   
-}
-*/
-    
-
-.explanation{
-    
+    text-decoration: none;
 }
 
+a.spaceleft:hover{
+    color: #848484;
+}
 
-/*
-    .height{
-        900px;
+.pushin{
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    
+}
+
+.pushagain{
+     padding-left: 40px;
+    padding-right: 40px;
+}
+
+.space5{
+   margin-top: 10px;
+}
+
+.right{
+    text-align: right;
+    padding-right: 30px;
+}
+.main{
+    margin-top: -100px;
+}
+
+.space10{
+    padding-top: 30px;
+}
+
+.spaceleft{
+    margin-left: 20px;
+}
+
+.description{
+    padding-top: 30px;
+}
+
+@media only screen and (max-width:576px){
+    
+    .description{
+        display: none;
     }
-*/
-
-
-
-}
-
-@media only screen and (max-width:576px){ 
-
-
-  .abc{
+    .pushin{
+        padding-bottom:0px;
+    }
+    
+    
+    .space30{
+        padding-top: 8px;
+    }
+    .text{
+    padding-top: 15px;
+        }
+    .abc{
         font-size: 15px;
     }
     
@@ -920,7 +315,15 @@ a:active {
     .surname{
         display: none;
     }
+    .subheading{
+        font-size: 18px;
+        line-height: 28px;
+    }
     
+    .project{
+        font-size: 60px;
+        line-height: 80px;
+    }
     .nav-item{
         display: inline!important;
     }
@@ -935,50 +338,80 @@ a:active {
         display: none;
     }
     
-
-
-
-
-
-
-
-
-
-
-}
+    .space60{
+        padding-top: 20px;
+    }
     
-
-
-
-
-/* Apply these rules if the screen width is GREATER than 768px */
-
+    .align{
 /*
-@media (min-width: 768px) {
-  div[class^="col"]{
-    border-style: solid;
-    border-color:blue;
-  }
-
+        text-align:right;
+        padding-left: 20px;
 */
-
-/* Apply these rules if the screen width is GREATER than 992px */
+        
+        display: none;
+    }
+    
+    .padding20{
+        padding-top: 30px;
+    }
+    
+    .margin{
 /*
-
-@media (min-width: 992px) {
-  div[class^="col"]{
-    border-style: solid;
-    border-color:yellow;
-  }
+        padding-right: 10px!important;
+        text-align: right;
+        
+*/
+        display: none;
+    }
+    .bodycopy{
+        font-size: 18px;
+    }
+    
+/*
+    grey{
+        margin-bottom: 10px;
+    }
+*/
+    
+    .lost{
+        padding-top: 30px;
+    }
+    
+    .padding10{
+        padding-top:10px;
+    }
+    
+    .two{
+        margin-top: 5px;
+    }
+    
+    .one{
+        margin-top: 30px;
+    }
+    
+/*  *    nav*/
+    .space80{
+        padding-top: 30px;
+    }
+    
+    .links{
+        text-align:left;
+    }
+    
+    
+    .space40{
+        padding:0px;
+    }
+    
+    .bottom10{
+        margin-bottom: 10px;
+    }
+    
+/*    nav*/
+    .main{
+        margin: 0px;
+    }
+   
+   
+    
 }
-*/
-
-/* Apply these rules if the screen width is GREATER than 1200px */
-/*
-
-@media (min-width: 1200px) {
-  div[class^="col"]{
-    border-style: solid;
-    border-color:red;
-  }
-}*/

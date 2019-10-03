@@ -287,9 +287,7 @@ padding-top: 10px;
         font-size: 18px;
     }
     
-    .space40{
-        padding:0px;
-    }
+    
 /*
     grey{
         margin-bottom: 10px;
@@ -304,12 +302,18 @@ padding-top: 10px;
         padding-top:10px;
     }
     
+    
+    
+    .space80{
+        padding-top: 30px;
+    }
+    
     .links{
         text-align: left;
     }
     
-    .space80{
-        padding-top: 30px;
+    .space40{
+        padding:0px;
     }
     
     .bottom10{

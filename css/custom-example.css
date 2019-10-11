@@ -37,6 +37,10 @@ body{
     color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*
 @font-face 
 {
@@ -219,9 +223,44 @@ a:hover{
     text-decoration: none;
 }
 
+.pushin{
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    
+}
+
+.pushagain{
+     padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+}
 
 
 @media only screen and (max-width:576px){
+    
+    .ontopvideo{
+        margin-left: 0px;
+        font-size: 17px;
+        margin-bottom: -15px;
+    }
+    
+    .pushagain{
+        padding-left: 15px;
+    }
+    
+    .carousel-caption{
+        margin-left: -30px;
+    }
+    .desktop{
+        display: none;
+    }
+    
+    .mobile{
+        display: block;
+    }
+    
     .space30{
         padding-top: 8px;
     }
@@ -258,9 +297,7 @@ a:hover{
     .navbar-nav .nav-link{
     margin-top: -10px;
     }
-    .carousel-caption{
-        display: none;
-    }
+   
     
     .align{
 /*
@@ -321,4 +358,35 @@ padding-top: 10px;
     }
    
     
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+ .desktop{
+        display: none;
+    }
+    
+    .mobile{
+        display: block;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+
+     .desktop{
+        display: block;
+    }
+    
+    .mobile{
+        display: none;
+    }
+
+
 }

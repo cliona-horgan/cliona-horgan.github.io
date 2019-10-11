@@ -54,6 +54,10 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
 }
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-light{
     transition: 200ms ease;
     background: transparent !important;

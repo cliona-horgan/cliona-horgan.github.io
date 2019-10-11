@@ -54,6 +54,10 @@ src: url('fonts/Oscine_Trial_Bd.ttf');
 }
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .bg-light{
     transition: 200ms ease;
     background: transparent !important;
@@ -290,9 +294,7 @@ a.spaceleft:hover{
 
 @media only screen and (max-width:576px){
     
-    .description{
-        display: none;
-    }
+  
     .pushin{
         padding-bottom:0px;
     }

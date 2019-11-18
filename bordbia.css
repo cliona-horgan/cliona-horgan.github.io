@@ -1,0 +1,423 @@
+/*
+Custom CSS
+*/
+
+
+
+@font-face 
+{
+font-family: 'Apercu_Regular.otf';
+font-style: normal;
+font-weight: 100;
+src: url('../fonts/Apercu_Regular.otf'); 
+}
+
+@font-face 
+{
+font-family: 'Apercu Bold.otf';
+font-style: normal;
+font-weight: 100;
+src: url('../fonts/Apercu Bold.otf'); 
+}
+
+@font-face 
+{
+font-family: 'Apercu Light.otf';
+font-style: normal;
+font-weight: 100;
+src: url('../fonts/Apercu Light.otf'); 
+}
+
+body{
+    background-color: #2b2b2b;
+}
+.bodycopy{
+    font-family: 'Apercu_Regular.otf';
+    font-size: 22px;
+    color: white;
+}
+
+/*
+@font-face 
+{
+font-family: 'Oscine_Trial_Rg.ttf';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/Oscine_Trial_Rg.ttf'); 
+}
+@font-face 
+{
+font-family: 'Oscine_Trial_Bd.ttf';
+font-style: normal;
+font-weight: 100;
+src: url('fonts/Oscine_Trial_Bd.ttf'); 
+}
+*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+.posters{
+    padding-top: 60px;
+}
+
+.bg-light{
+    transition: 200ms ease;
+    background: transparent !important;
+}
+
+.bg-light.scrolled{
+    background: #2b2b2b !important;
+}
+
+.navbar-brand {
+    margin-left: 22px;
+    font-size: 25px;
+    font-family: 'Apercu Bold.otf';
+    color:!important;
+}
+.abc.ncol{
+    color: white!important;
+}
+
+.abc{
+    color: white!important;
+}
+
+.active{
+    color: black!important;
+    font-weight:600!important;
+}
+
+.text{
+    padding-top: 20px;
+}
+
+a:link.nav-link.abc{
+    font-family:'Apercu_Regular.otf';
+    font-size: 22px;
+/*    margin-right: 10px;*/
+    font-weight: 300;
+}
+
+
+
+a:visited .nav-link.abc{
+    font-family:'Apercu_Regular.otf';
+    font-size: 18px;
+/*    margin-right: 10px;*/
+    font-weight: 300;
+    color: #95d8ed!important;
+}
+
+a:hover.nav-link.abc{
+    color: grey!important;
+    text-decoration: none !important;
+}
+
+a:active.nav-link.abc{
+    color:gainsboro;
+    text-decoration: none !important;
+}
+
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.abc path {
+    fill: white;
+}
+.abc.ncol path{
+    fill: #828eac;
+}
+
+
+.align{
+    text-align: right;
+}
+
+.navbar-nav { 
+    flex-direction: row;
+}
+.navbar-nav .nav-link{
+    padding-left: 10px;
+}
+
+
+
+.grey{
+    color: #848484;
+    
+}
+
+.white{
+    color: white;
+}
+
+.ontopvideo{
+/*    position: absolute;*/
+    font-size: 30px;
+    font-family: 'Apercu Light.otf';
+    margin-left: -110px;
+    
+    color: white;
+    text-align: left
+}
+
+.black{
+    color: black;
+    font-family: 'Apercu Bold.otf';
+}
+
+.space30{
+padding-top: 150px;
+
+}
+
+ .text{
+     padding-top: 35px;}
+
+ .lost{
+        padding-top: 50px;
+    }
+
+.descrip{
+    padding-top: 8px;
+}
+
+
+
+.padding20{
+    padding-top: 130px;
+}
+
+.project
+    {font-family:  'Apercu Bold.otf';
+    font-size: 100px;
+    line-height: 120px;
+    color: white;}
+
+.subheading{
+     font-family: 'Apercu_Regular.otf';
+    font-size: 22px;
+    line-height: 38px;
+    color: #848484;
+}
+
+.space60{
+    padding-top:100px;
+}
+
+ .one{
+        margin-top: 100px;
+    }
+
+.two{
+    margin-top: 15px;
+}
+
+.links{
+    text-align:right;
+}
+
+.space40{
+    padding-top: 60px;
+}
+
+.footer{
+    padding-bottom: 50px;
+}
+
+.space80{
+    padding-top:100px;
+}
+a{
+    color: #848484;
+    text-decoration: none;
+    
+
+}
+
+a.link{
+    color: white;
+}
+
+a.link:hover{
+    color: #848484;
+}
+
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+a.spaceleft:hover{
+    color: #848484;
+}
+
+.pushin{
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    
+}
+
+.pushagain{
+     padding-left: 40px;
+    padding-right: 40px;
+}
+
+.space5{
+   margin-top: 10px;
+}
+
+.right{
+    text-align: right;
+    padding-right: 30px;
+}
+.main{
+    margin-top: -100px;
+}
+
+.space10{
+    padding-top: 30px;
+}
+
+.spaceleft{
+    margin-left: 20px;
+}
+
+.description{
+    padding-top: 30px;
+}
+
+@media only screen and (max-width:576px){
+    
+  
+    .pushin{
+        padding-bottom:0px;
+    }
+    
+    
+    .space30{
+        padding-top: 8px;
+    }
+    .text{
+    padding-top: 15px;
+        }
+    .abc{
+        font-size: 15px;
+    }
+    
+    a.nav-link.abc{
+        font-size: 15px!important;
+    }
+    
+    .surname{
+        display: none;
+    }
+    .subheading{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .project{
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .nav-item{
+        display: inline!important;
+    }
+    .navbar-brand{
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+    .navbar-nav .nav-link{
+    margin-top: -10px;
+    }
+    .carousel-caption{
+        display: none;
+    }
+    
+    .space60{
+        padding-top: 20px;
+    }
+    
+    .align{
+/*
+        text-align:right;
+        padding-left: 20px;
+*/
+        
+        display: none;
+    }
+    
+    .padding20{
+        padding-top: 30px;
+    }
+    
+    .margin{
+/*
+        padding-right: 10px!important;
+        text-align: right;
+        
+*/
+        display: none;
+    }
+    .bodycopy{
+        font-size: 18px;
+    }
+    
+/*
+    grey{
+        margin-bottom: 10px;
+    }
+*/
+    
+    .lost{
+        padding-top: 30px;
+    }
+    
+    .padding10{
+        padding-top:10px;
+    }
+    
+    .two{
+        margin-top: 5px;
+    }
+    
+    .one{
+        margin-top: 30px;
+    }
+    
+/*  *    nav*/
+    .space80{
+        padding-top: 30px;
+    }
+    
+    .links{
+        text-align:left;
+    }
+    
+    
+    .space40{
+        padding:0px;
+    }
+    
+    .bottom10{
+        margin-bottom: 10px;
+    }
+    
+/*    nav*/
+    .main{
+        margin: 0px;
+    }
+   
+   
+    
+}

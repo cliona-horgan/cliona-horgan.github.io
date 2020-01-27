@@ -314,10 +314,7 @@ a.spaceleft:hover{
     margin-bottom: 30px;
     padding-left: 150px;
     padding-right:150px;
-/*
-    padding-left: 150px;
-    padding-right:150px;
-*/
+
 }
 
 .bignumber{
@@ -378,6 +375,37 @@ a.spaceleft:hover{
         margin-bottom: 50px;
 
 }
+
+
+
+
+@media (min-width: 1500px) { 
+    .blue{
+    background-color: #bfecf7;
+    margin-top: 30px;
+    height: 840px;
+    padding-top: 60px;
+    padding-bottom: 180px;
+    padding-left: 180px;
+    padding-right:180px;
+    }
+    
+    
+    .bluetwo{
+    background-color: #98afd3;
+    margin-top: 30px;
+    height: 840px;
+    padding-top: 90px;
+    padding-bottom: 180px;
+    margin-bottom: 30px;
+    padding-left: 150px;
+    padding-right:150px;
+
+}
+
+}
+
+
 @media only screen and (max-width:576px){
     
     .description{
@@ -547,7 +575,7 @@ a.spaceleft:hover{
     .space40{
         padding:0px;
     }
-    
+    f
     .bottom10{
         margin-bottom: 10px;
     }
